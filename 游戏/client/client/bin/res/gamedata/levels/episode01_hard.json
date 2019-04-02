@@ -1,0 +1,3699 @@
+[
+    {
+        "id": "H1E01",
+        "reward": 200,
+        "name": "Such A Nice Evening",
+        "hour": "12h",
+        "cmds": [
+            {
+                "name": "pause",
+                "param": [
+                    "1.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-10",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "10-12",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "12-14",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "12-16",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "12-16",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "all"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E02",
+        "reward": 200,
+        "name": "Let's rock!",
+        "hour": "16h",
+        "cmds": [
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "14-18",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "14-20",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "14-20",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "3-4",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "7-8",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "6-8",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "14-16",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E03",
+        "reward": 250,
+        "name": "Danger From The Swamp",
+        "hour": "20h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "60",
+                    "20",
+                    "30"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "10-14",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "12-16",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "6-8",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "12-14",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-9",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "20%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "3-4",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "5-6",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "14-18",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "all"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E04",
+        "reward": 300,
+        "name": "Raccoon On Board!",
+        "hour": "0h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "60",
+                    "30",
+                    "40"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "3",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "5",
+                    "1.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "5-6",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4-8",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "4-5",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "4-8",
+                    "1.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4-8",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4-8",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "3-4",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4-8",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-10",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "4-6",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "4-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "2-3",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "4-6",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "all"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E05",
+        "reward": 400,
+        "name": "We Come In Peace",
+        "hour": "4h",
+        "cmds": [
+            {
+                "name": "UFO"
+            },
+            {
+                "name": "fog",
+                "param": [
+                    "60",
+                    "10",
+                    "30"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "all"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-12",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "all"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "all"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "all"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4-8",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4-12",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "all"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "20-28",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "all"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E06",
+        "reward": 400,
+        "name": "Monster Tsunami",
+        "hour": "9h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "12-16",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "13-19",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "16-22",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "19-25",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "4-7",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "4-7",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "8-12",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "8-12",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "16-22",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E07",
+        "reward": 400,
+        "name": "There Are So Many",
+        "hour": "13h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "2",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "7-10",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "50%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "5",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "5",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "5",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "20%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "3",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "5-9",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "5-9",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "5-8",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4-8",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "10-12",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "11-13",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "5-7",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "5",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E08",
+        "reward": 450,
+        "name": "Sub-Zero",
+        "hour": "17h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "90",
+                    "20",
+                    "30"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "16-25",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "7-11",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "8-11",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "10-13",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "5-9",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "3-5",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E09",
+        "reward": 500,
+        "name": "A Different Kind Of Rat Problem",
+        "hour": "21h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-10",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "9-11",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "5-8",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "3",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-7",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-9",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "7-9",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-7",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-7",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "7-9",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E10",
+        "reward": 500,
+        "name": "Y-Files",
+        "hour": "1h",
+        "cmds": [
+            {
+                "name": "UFO"
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "7-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "5-7",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "5-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "4",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "5-8",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "3-5",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6-9",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "3-5",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "5-9",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "6-7",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "3-4",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E11",
+        "reward": 550,
+        "name": "Metalheads",
+        "hour": "5h",
+        "cmds": [
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-11",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "4-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon Helm",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "6",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon Helm",
+                    "4",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon Helm",
+                    "4-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "4-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "6-8",
+                    "1.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "1-2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E12",
+        "reward": 600,
+        "name": "Oh, My God, It's Full Of Monsters",
+        "hour": "9h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "90",
+                    "30",
+                    "40"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "15-20",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "5-7",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "7-10",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "7-10",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "5-8",
+                    "3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "10-14",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon Helm",
+                    "5-7",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon Helm",
+                    "5-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E13",
+        "reward": 600,
+        "name": "It's A Trap!",
+        "hour": "13h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "50",
+                    "20",
+                    "40"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "4",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "4-6",
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "4-6",
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "5-7",
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "5-7",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "4-5",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "1-2",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "4-5",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E14",
+        "reward": 600,
+        "name": "More?",
+        "hour": "17h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "90",
+                    "20",
+                    "20"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "4-5",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-9",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-10",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "4-6",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4-6",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4-7",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "3-5",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4-8",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E15",
+        "reward": 700,
+        "name": "Unidentified Flying Saucer",
+        "hour": "21h",
+        "cmds": [
+            {
+                "name": "UFO"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "4-6",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "3-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "5-7",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "12-18",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "5",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "5-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "14-18",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E16",
+        "reward": 700,
+        "name": "Turtle Power",
+        "hour": "0h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "4",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Naked Turtle",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Naked Turtle",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Naked Turtle",
+                    "6-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "6-10",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Naked Turtle",
+                    "6-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Naked Turtle",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Naked Turtle",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Naked Turtle",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Naked Turtle",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "6-10",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Naked Turtle",
+                    "6-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Naked Turtle",
+                    "6-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E17",
+        "reward": 700,
+        "name": "Crocodile Apocalypse",
+        "hour": "2h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "9-16",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "20%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "13-19",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "20%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "16-22",
+                    "0.6"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "20%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "16-22",
+                    "0.8"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "20%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "19-25",
+                    "0.6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "20%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "22-28",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "10%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "22-28",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "4",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "25-35",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "4-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "25-35",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6-10",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "6-10",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "text",
+                "param": [
+                    "I can smell the boss coming ...!"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H1E18",
+        "reward": 3000,
+        "name": "Chainsaw Massacre",
+        "hour": "4h",
+        "cmds": [
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "10-15",
+                    "3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "30%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "8-12",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "preGiveName": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Beaver Boss",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "6-12",
+                    "6"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    }
+]

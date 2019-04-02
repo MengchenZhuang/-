@@ -1,0 +1,5930 @@
+[
+    {
+        "id": "H4E01",
+        "reward": 1600,
+        "name": "Swamp vs. Aliens",
+        "hour": "4h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4-6",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-7",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-10",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-10",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "2-3",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "4-5",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "4-6",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "7-10",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "2-3",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "4-6",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "5-7",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "5-9",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "3-4",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "4-6",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E02",
+        "reward": 1600,
+        "name": "Swamp Odyssey",
+        "hour": "8h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "4-6",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "3-5",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "8-12",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "3-4",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "2-3",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "4-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "7-9",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E03",
+        "reward": 1600,
+        "name": "Battle: Swamp",
+        "hour": "12h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "1-2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "3-4",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "3-5",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-8",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-10",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "2-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "3-5",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "10%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "3-5",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E04",
+        "reward": 2000,
+        "name": "Species 8473",
+        "hour": "16h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "90",
+                    "20",
+                    "30"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "6-10",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "6-10",
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "6-10",
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "4-7",
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "1-2",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "6-10",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "4-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "6-12",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "6-10",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "5-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "7-12",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E05",
+        "reward": 1800,
+        "name": "Battle in Outer Swamp",
+        "hour": "20h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "90",
+                    "10",
+                    "30"
+                ]
+            },
+            {
+                "name": "UFO"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "10-16",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "5-9",
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "8-12",
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "7-10",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "3-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "3-5",
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "6-7",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "3-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "5-6",
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "1-2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "4-6",
+                    "2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "10%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "4-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E06",
+        "reward": 2000,
+        "name": "Close Encounters",
+        "hour": "0h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "3-5",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "3-5",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "3-5",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "4-8",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "10%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "5-7",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "5-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "3-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "3-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "6-8",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E07",
+        "reward": 2000,
+        "name": "The Day the Swamp Stood Still",
+        "hour": "2h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "8-15",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "5-7",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "6-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "5-7",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "6-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "5-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "5-7",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "4",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "5",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "4-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "5-6",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "3-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "2-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "2-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E08",
+        "reward": 1800,
+        "name": "The Deadly Swamp",
+        "hour": "6h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "6-8",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "5-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "5-7",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "4-5",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "10%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "4-5",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "3",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "4-6",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "5-7",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "3-5",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "3-4",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "3-4",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "3-5",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E09",
+        "reward": 1800,
+        "name": "District 9.2",
+        "hour": "10h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "2-3",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "4-6",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-10",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "1-2",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "3-4",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-10",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "1-2",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-12",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "1-2",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "3-4",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "1-2",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "3-5",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E10",
+        "reward": 1800,
+        "name": "Swamp vs. the Flying Saucers",
+        "hour": "14h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "50",
+                    "20",
+                    "60"
+                ]
+            },
+            {
+                "name": "UFO"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "4-6",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "4-6",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "1-2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "2-3",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "4-6",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "5-6",
+                    "2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "3",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E11",
+        "reward": 2500,
+        "name": "Fire in the Swamp",
+        "hour": "18h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "90",
+                    "10",
+                    "60"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "2-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "2-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "1-2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "3-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E12",
+        "reward": 2200,
+        "name": "The Sixth Element",
+        "hour": "22h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "1-2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Pink Alien",
+                    "1-2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "4-5",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Crocodile Helm-A",
+                    "2",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "5-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Alien UFO",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "3",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Rambo",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Alien UFO",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "4-6",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Crocodile Helm-A",
+                    "2-3",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "10%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Alien UFO",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "10%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "14-18",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Crocodile Helm-A",
+                    "4-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E13",
+        "reward": 2000,
+        "name": "Independence Day",
+        "hour": "1h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Crocodile Helm-A",
+                    "2-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "12-16",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Rat Helm-A",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "5-7",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Rat Helm-A",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "6-9",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "4",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "4-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Alien UFO",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Rat Helm-A",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E14",
+        "reward": 2000,
+        "name": "The Terror from Beyond Swamp",
+        "hour": "5h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Crocodile,Alien Bomber,Alien UFO,Crocodile,Crocodile",
+                    "2",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito",
+                    "2",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito",
+                    "2",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "4-5",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Alien Bomber,Alien UFO,Alien Bomber",
+                    "1",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito",
+                    "2",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "5-7",
+                    "2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito",
+                    "2",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "4-6",
+                    "2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E15",
+        "reward": 2100,
+        "name": "Little Swamp of Horrors",
+        "hour": "9h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "90",
+                    "20",
+                    "20"
+                ]
+            },
+            {
+                "name": "UFO"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "2-3",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "2-3",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "8-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "2-4",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "4-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "7"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "6-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E16",
+        "reward": 2200,
+        "name": "Not of this Earth",
+        "hour": "15h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "50",
+                    "20",
+                    "50"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Beaver Helm-A",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Beaver Helm-A",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "3-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "4-6",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito",
+                    "2",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito",
+                    "2",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito",
+                    "2",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "4",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "12-18",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito,Mosquito",
+                    "2",
+                    "0.5",
+                    "spawnk",
+                    "Beaver",
+                    "10-16",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E17",
+        "reward": 2000,
+        "name": "Swamp Rim",
+        "hour": "19h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "90",
+                    "20",
+                    "30"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "25-35",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "20-30",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "20-30",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Crocodile Helm-A",
+                    "20-25",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "12-18",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "16-22",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "12-18",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Crocodile Helm-A",
+                    "10-14",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E18",
+        "reward": 2000,
+        "name": "Swampballs",
+        "hour": "23h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Alien UFO,Alien UFO,Mosquito,Mosquito,Mosquito",
+                    "2",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "3-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "10-15",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Alien UFO,Alien UFO,Mosquito,Mosquito,Mosquito",
+                    "2",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Alien UFO,Alien UFO,Mosquito,Mosquito,Mosquito",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "3-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "10-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Alien UFO,Alien UFO,Mosquito,Mosquito,Mosquito",
+                    "2",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-15",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E19",
+        "reward": 3000,
+        "name": "The Final Frontier",
+        "hour": "3h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "3-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "7"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "3-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "4-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "4-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "4-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Pink Alien",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Pink Alien",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "4-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Alien Bomber",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "5-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Pink Alien",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "6-8",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Pink Alien",
+                    "1-2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E20",
+        "reward": 2100,
+        "name": "The Thing from Another World",
+        "hour": "7h",
+        "cmds": [
+            {
+                "name": "UFO"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "1-2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "1-2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "1-2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-11",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "11-13",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "10-13",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Pink Alien,Alien UFO,Mosquito,Mosquito,Mosquito",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Alien UFO,Alien UFO,Alien UFO,Mosquito,Mosquito,Mosquito,Mosquito",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "10-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Alien UFO,Alien UFO,Mosquito,Mosquito,Mosquito",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "7"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Pink Alien,Alien UFO,Mosquito,Mosquito",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E21",
+        "reward": 2500,
+        "name": "A Trip to the Swamp",
+        "hour": "11h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Rambo",
+                    "1-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "1-2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "4-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E22",
+        "reward": 2500,
+        "name": "The War of the Swamp",
+        "hour": "15h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Alien UFO,Alien UFO,Mosquito,Mosquito,Mosquito",
+                    "1-2",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "6-7",
+                    "2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Alien UFO,Alien UFO,Mosquito,Mosquito,Mosquito",
+                    "1-2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Alien Bomber",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "3-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "4-6",
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Alien Bomber,Pink Alien,Rambo,Mosquito,Mosquito,Mosquito",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Monsters in Box",
+                    "Alien Bomber,Pink Alien,Rambo,Mosquito,Mosquito,Mosquito",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Pink Alien",
+                    "4-6",
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "14-18",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rambo",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Rambo",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E23",
+        "reward": 2500,
+        "name": "The World's End",
+        "hour": "19h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "4-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "8-11",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "16-25",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Crocodile Helm-A",
+                    "10-14",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "5",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "4-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "4-8",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm-A",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "8-11",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "12-15",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "7-9",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Crocodile Helm-A",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Beaver Helm-A",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "6-8",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Alien Bomber",
+                    "4-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "4",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm-A",
+                    "6-9",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "12-16",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Beaver Helm-A",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm-A",
+                    "3-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "+Alien Bomber",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H4E24",
+        "reward": 6000,
+        "name": "The Mothership",
+        "hour": "22h",
+        "cmds": [
+            {
+                "preGiveName": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Mothership",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawnk",
+                "param": [
+                    "Alien UFO",
+                    "5",
+                    "6"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "all"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "7"
+                ]
+            }
+        ]
+    }
+]

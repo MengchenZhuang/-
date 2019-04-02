@@ -1,0 +1,5322 @@
+[
+    {
+        "id": "R3E01",
+        "reward": 800,
+        "name": "Shall we begin?",
+        "hour": "4h",
+        "cmds": [
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Piranha",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "all"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Piranha",
+                    "1-2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "8-10",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Piranha",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "10-11",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Piranha",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "6-7",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "7-9",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "12-13",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Piranha",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "10-11",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E02"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H2E11"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H2E12"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H2E13"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H2E14"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H2E15"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E02",
+        "reward": 800,
+        "name": "Another day",
+        "hour": "8h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "90",
+                    "20",
+                    "30"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "tutorial",
+                "param": [
+                    "Barrel"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "6-8",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat",
+                    "1-2",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "5-7",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "8-10",
+                    "1.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "4-5",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "5-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "10-13",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "4-6",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat Helm",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "5-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E03"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E03",
+        "reward": 900,
+        "name": "I like turtles",
+        "hour": "12h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "90",
+                    "10",
+                    "30"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Turtle",
+                    "10-12",
+                    "1.3"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Turtle",
+                    "16-19",
+                    "2.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Turtle",
+                    "15-19",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "gift",
+                "param": [
+                    "unlock",
+                    "Stop Sign",
+                    "wait",
+                    "objects"
+                ]
+            },
+            {
+                "name": "tutorial",
+                "param": [
+                    "Stop Sign"
+                ]
+            },
+            {
+                "name": "gift",
+                "param": [
+                    "ammo",
+                    "Stop Sign",
+                    "1",
+                    "wait",
+                    "objects"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E04"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E04",
+        "reward": 900,
+        "name": "Beaver Apocalypse",
+        "hour": "16h",
+        "cmds": [
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver",
+                    "6-8",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "10%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver",
+                    "6-8",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "10%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver",
+                    "8-10",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver Helm",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "10%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver",
+                    "10-12",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver Helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "10%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver",
+                    "12-14",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver Helm",
+                    "4-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver",
+                    "3",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "all"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E05"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E05",
+        "reward": 900,
+        "name": "Monsters! Phone home.",
+        "hour": "20h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "90",
+                    "40",
+                    "30"
+                ]
+            },
+            {
+                "name": "UFO"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "10-12",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "3",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Bug",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "4-6",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Bug",
+                    "2-3",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "8-9",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "4",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Bug",
+                    "2-3",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "6-8",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Bug",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "10-11",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "6-8",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "8-10",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Bug",
+                    "3-4",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "5-6",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E06"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H2E16"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H2E17"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H2E18"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E06",
+        "reward": 1000,
+        "name": "The walking barrel",
+        "hour": "1h",
+        "cmds": [
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "tutorial",
+                "param": [
+                    "Evil can"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Rat",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Beaver",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Beaver Helm",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "6-8",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Rat",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "3-4",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Rat,Crocodile",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Rat,Crocodile",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "6-10",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver",
+                    "3-4",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Rat Helm,Crocodile Helm,Beaver Helm",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Rat Helm,Crocodile Helm,Beaver Helm",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "7"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Rat Helm,Crocodile Helm,Beaver Helm",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E07"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E07",
+        "reward": 1000,
+        "name": "My precious swamp",
+        "hour": "5h",
+        "cmds": [
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "10-12",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile Helm",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "10-11",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat",
+                    "1-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Rat",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Rat Helm",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "10-11",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat",
+                    "1-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Rat",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Rat Helm",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "10-12",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "10-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "6-8",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "4-6",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile Helm",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat Helm",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E08"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E08",
+        "reward": 1000,
+        "name": "They're here!",
+        "hour": "10h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "90",
+                    "20",
+                    "20"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver Boss",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "10-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "60%"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "40%"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "20%"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver",
+                    "3-5",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver Helm",
+                    "2-3",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Bug",
+                    "1-2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Fly",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "10-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Bug",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver Boss",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Bug",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Fly",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "10%"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Bug",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver",
+                    "2-3",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E09"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E09",
+        "reward": 1000,
+        "name": "There's no place like swamp.",
+        "hour": "14h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "50",
+                    "20",
+                    "50"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon",
+                    "5-6",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Hedgehog",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver",
+                    "1-2",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Hedgehog",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Piranha",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon",
+                    "5-6",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Hedgehog",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver",
+                    "1-2",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Piranha",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon",
+                    "4-5",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Hedgehog",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon",
+                    "5-8",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Hedgehog",
+                    "2-3",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "7"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Hedgehog",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon",
+                    "6-8",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "tutorial",
+                "param": [
+                    "Metal"
+                ]
+            },
+            {
+                "name": "gift",
+                "param": [
+                    "unlock",
+                    "Metal",
+                    "wait",
+                    "objects"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E10"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E10",
+        "reward": 1100,
+        "name": "The Truth is Out Here",
+        "hour": "18h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "90",
+                    "20",
+                    "30"
+                ]
+            },
+            {
+                "name": "UFO"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "10"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "10"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "11"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "4-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "12"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "4-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "13"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "6-7",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "13"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "6-7",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "13"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "13"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "9-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "9-11",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E11"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H3E01"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H3E02"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H3E03"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H3E04"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H3E05"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E11",
+        "reward": 1100,
+        "name": "Go ahead, make my day.",
+        "hour": "22h",
+        "cmds": [
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat Helm",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat Helm",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat Helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Rat",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Fly",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat Helm",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Fly",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "8-9",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile Helm",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat Helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "5-8",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "5-8",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "4-6",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "5-8",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile Helm",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat",
+                    "4-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Fly",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "12-15",
+                    "0.6"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Rat Helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E12"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E12",
+        "reward": 1100,
+        "name": "I see swamp monsters",
+        "hour": "2h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "80",
+                    "10",
+                    "30"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Fly helm",
+                    "1",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Bug",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "10%"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "10-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "bug",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "bug",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "bug",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-9",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "4",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Bug",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "4",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "preGiveName": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Mosquito Boss",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "5",
+                    "5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "gift",
+                "param": [
+                    "unlock",
+                    "Crossbow",
+                    "wait",
+                    "objects"
+                ]
+            },
+            {
+                "name": "tutorial",
+                "param": [
+                    "Crossbow"
+                ]
+            },
+            {
+                "name": "gift",
+                "param": [
+                    "ammo",
+                    "Crossbow",
+                    "5",
+                    "wait",
+                    "objects"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E13"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E13",
+        "reward": 1200,
+        "name": "We don't negotiate with monsters.",
+        "hour": "6h",
+        "cmds": [
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "6-9",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile Helm",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Piranha",
+                    "2-3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "5-7",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "7-9",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile Helm",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Piranha",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile helm",
+                    "10-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Hedgehog",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Hedgehog",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "9-11",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile Helm",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "9-11",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile Helm",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Piranha",
+                    "4-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Hedgehog",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "5-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E14"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E14",
+        "reward": 1200,
+        "name": "High explosive",
+        "hour": "10h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "90",
+                    "10",
+                    "20"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon",
+                    "35-45",
+                    "0.8"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "4-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "text",
+                "param": [
+                    "There is no end in sight !"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon",
+                    "30-40",
+                    "0.8"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile",
+                    "6-9",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon helm",
+                    "16-20",
+                    "0.6"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Crocodile Helm",
+                    "5-6",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "10-12",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E15"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E15",
+        "reward": 1200,
+        "name": "Extraterrestrial objects",
+        "hour": "14h",
+        "cmds": [
+            {
+                "name": "UFO"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver Helm",
+                    "3",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Piranha",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver",
+                    "5-6",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver Helm",
+                    "3",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver Boss",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver",
+                    "4-7",
+                    "7"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Piranha",
+                    "4-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver",
+                    "4",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver Helm",
+                    "3",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver Boss",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver Helm",
+                    "2-3",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver",
+                    "4-6",
+                    "6"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Beaver Helm",
+                    "2-3",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E16"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H3E06"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H3E07"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H3E08"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H3E09"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "H3E10"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E16",
+        "reward": 1300,
+        "name": "Forbidden swamp",
+        "hour": "16h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "50",
+                    "20",
+                    "60"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon Helm",
+                    "5-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Racoon Helm",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon",
+                    "8-10",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon Helm",
+                    "3-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "10-15",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Bug",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "10-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Mosquito",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Bug",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "10-15",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Mosquito",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "0.2"
+                ]
+            },
+            {
+                "name": "barrel"
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "15-20",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon Helm",
+                    "4-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "10-17",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Bug",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon Helm",
+                    "3-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon",
+                    "6-8",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Racoon Helm",
+                    "2-3",
+                    "1.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Racoon Helm",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "15-17",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E17"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E17",
+        "reward": 1300,
+        "name": "I'm the king of the swamp!",
+        "hour": "20h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "90",
+                    "10",
+                    "60"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Beaver Helm",
+                    "2",
+                    "4"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile Helm, Hedgehog",
+                    "1-2",
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Hedgehog",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Piranha",
+                    "1-2",
+                    "0.8"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile Helm, Hedgehog, Mosquito",
+                    "2-3",
+                    "4"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Piranha",
+                    "2-3",
+                    "0.8"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Hedgehog",
+                    "3-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "10-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Beaver Helm, Hedgehog",
+                    "2",
+                    "3"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Piranha",
+                    "2",
+                    "0.8"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Hedgehog",
+                    "3-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Piranha",
+                    "2-3",
+                    "0.8"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "all"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "text",
+                "param": [
+                    "I can smell the boss coming ...!"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "gift",
+                "param": [
+                    "ammo",
+                    "Battery",
+                    "1",
+                    "wait",
+                    "objects"
+                ]
+            },
+            {
+                "name": "gift",
+                "param": [
+                    "ammo",
+                    "Molotov",
+                    "1",
+                    "wait",
+                    "objects"
+                ]
+            },
+            {
+                "name": "gift",
+                "param": [
+                    "ammo",
+                    "Fridge",
+                    "1",
+                    "wait",
+                    "objects"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R3E18"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "R3E18",
+        "reward": 2300,
+        "name": "Swamp monster",
+        "hour": "24h",
+        "cmds": [
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile",
+                    "1-2",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile Helm",
+                    "1-2",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile Helm",
+                    "1-2",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "preGiveName": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Swamp Monster",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "10"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile",
+                    "1-2",
+                    "1"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "pause",
+                "param": [
+                    "10"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "5-7",
+                    "0.4"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "pause",
+                "param": [
+                    "12"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile Helm",
+                    "1",
+                    "0.4"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "pause",
+                "param": [
+                    "12"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "2-4",
+                    "0.5"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "pause",
+                "param": [
+                    "12"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "pause",
+                "param": [
+                    "12"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "5-7",
+                    "0.3"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "pause",
+                "param": [
+                    "12"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile Helm",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "pause",
+                "param": [
+                    "12"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "2-4",
+                    "0.5"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "pause",
+                "param": [
+                    "12"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "pause",
+                "param": [
+                    "12"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "5-7",
+                    "0.1"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "pause",
+                "param": [
+                    "12"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile Helm",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "pause",
+                "param": [
+                    "12"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "pause",
+                "param": [
+                    "12"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "5-7",
+                    "0.1"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "pause",
+                "param": [
+                    "10"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile Helm",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "pause",
+                "param": [
+                    "10"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "pause",
+                "param": [
+                    "10"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Monster in Barrel",
+                    "Crocodile",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "pause",
+                "param": [
+                    "10"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Mosquito",
+                    "2-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "all"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "gift",
+                "param": [
+                    "ammo",
+                    "Reaper",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "objects"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "R4E01"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "C0016"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "C0017"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "C0018"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "C0019"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "C0020"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "C0021"
+                ]
+            },
+            {
+                "name": "unlock",
+                "param": [
+                    "C0022"
+                ]
+            }
+        ]
+    }
+]

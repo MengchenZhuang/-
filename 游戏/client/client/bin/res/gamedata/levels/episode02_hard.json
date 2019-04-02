@@ -1,0 +1,3639 @@
+[
+    {
+        "id": "H2E01",
+        "reward": 800,
+        "name": "There Is Something In The Air",
+        "hour": "20h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Bug",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Bug",
+                    "4-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6-9",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4-8",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4-8",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4-8",
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Bug",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4-8",
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "4-10",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "6-10",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6-10",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-11",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "6-8",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6-10",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E02",
+        "reward": 800,
+        "name": "Endless Flow",
+        "hour": "23h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "60",
+                    "20",
+                    "30"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-14",
+                    "1.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4-10",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-14",
+                    "1.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-14",
+                    "1.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-12",
+                    "1.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-16",
+                    "1.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "12-18",
+                    "1.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "10-12",
+                    "1.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "10-19",
+                    "1.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "8-12",
+                    "1.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Bug",
+                    "3-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E03",
+        "reward": 800,
+        "name": "Tasty Weapons",
+        "hour": "3h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "60",
+                    "30",
+                    "40"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "12-18",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "5-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "6-9",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Turtle",
+                    "4-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-7",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "5-8",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "6-8",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E04",
+        "reward": 900,
+        "name": "In The Air Tonight",
+        "hour": "7h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "60",
+                    "10",
+                    "30"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Bug",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "14-16",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "10-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Bug",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "10-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "12-16",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Bug",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Bug",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "14-16",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Bug",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E05",
+        "reward": 900,
+        "name": "UFO",
+        "hour": "11h",
+        "cmds": [
+            {
+                "name": "UFO"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "4-5",
+                    "1.8"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "5",
+                    "1.9"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "12-18",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "4-6",
+                    "1.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "10-11",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6-7",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "12-16",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "6-8",
+                    "4"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "12-15",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "10-11",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "7-8",
+                    "4.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E06",
+        "reward": 900,
+        "name": "300! This Is Swamp!",
+        "hour": "15h",
+        "cmds": [
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "50-70",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "50-70",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "12-16",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "text",
+                "param": [
+                    "Will they ever leave me alone??"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "50-70",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "50-70",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "12-16",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E07",
+        "reward": 1000,
+        "name": "Something's Fishy",
+        "hour": "19h",
+        "cmds": [
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "3",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "3-4",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "4-5",
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "10-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "1-2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "12-14",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "12-14",
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "2-3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "12-15",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4-8",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "10-15",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "3-5",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E08",
+        "reward": 1100,
+        "name": "Sleepwalkers",
+        "hour": "23h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "60",
+                    "40",
+                    "30"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "8-10",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "6-8",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "8-12",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "20%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon",
+                    "6-8",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon Helm",
+                    "7-9",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "7-8",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "4-6",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "12-16",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly",
+                    "4",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Boss",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly Helm",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "10"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly Helm",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E09",
+        "reward": 1200,
+        "name": "No Sleep Tonight",
+        "hour": "2h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "60",
+                    "10",
+                    "30"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "4-7",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "14",
+                    "0.6"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "14",
+                    "0.6"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "7-8",
+                    "0.6"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "14",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "6-8",
+                    "0.6"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "6-8",
+                    "0.6"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Boss",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "8"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "6-8",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "6-10",
+                    "0.6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Bug",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "10-14",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E10",
+        "reward": 1200,
+        "name": "We Come Again!",
+        "hour": "6h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "60",
+                    "20",
+                    "30"
+                ]
+            },
+            {
+                "name": "UFO"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "4-5",
+                    "4"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "10-15",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly Helm",
+                    "3",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "10"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "4-6",
+                    "5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "3-4",
+                    "2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "5-7",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "6-10",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "4-10",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Bug",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "12-14",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Bug",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "6-8",
+                    "3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E11",
+        "reward": 1200,
+        "name": "Crocodile Cataclysm",
+        "hour": "10h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "5-8",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "8-12",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "12-18",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "14-20",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "16-22",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "6-8",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "6-8",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "6-8",
+                    "0.4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E12",
+        "reward": 1200,
+        "name": "Hedgehog Day Out",
+        "hour": "14h",
+        "cmds": [
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Hedgehog",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Hedgehog",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "3",
+                    "3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Hedgehog",
+                    "3-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Hedgehog",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Hedgehog",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Hedgehog",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "2-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Hedgehog",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "3-4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E13",
+        "reward": 1300,
+        "name": "Rat Is Back",
+        "hour": "18h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "60",
+                    "10",
+                    "30"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "10-12",
+                    "0.3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "1",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "6-8",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "4",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-10",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E14",
+        "reward": 1300,
+        "name": "Doomsday",
+        "hour": "22h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "90",
+                    "20",
+                    "30"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "3",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "3",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "3-4",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "3",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "4-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "8"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Hedgehog",
+                    "3-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "fly",
+                    "3",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "2",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat",
+                    "3-5",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "7"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Hedgehog",
+                    "3-4",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Rat Helm",
+                    "2",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "3",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Hedgehog",
+                    "3",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E15",
+        "reward": 1300,
+        "name": "Unexplained Flying Discs",
+        "hour": "2h",
+        "cmds": [
+            {
+                "name": "UFO"
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Hedgehog",
+                    "3-4",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "3-5",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Hedgehog",
+                    "4-6",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "4-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "10-12",
+                    "1.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "5",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "4-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "6-8",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "3-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver",
+                    "10-14",
+                    "1.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "5-8",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E16",
+        "reward": 1400,
+        "name": "Just Getting Started",
+        "hour": "6h",
+        "cmds": [
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "5",
+                    "1"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "12-14",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Hedgehog",
+                    "6-8",
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "5",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "16-22",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "3-4",
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "14-20",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "10-18",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "3"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "10-16",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "4-5",
+                    "3"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile",
+                    "12-16",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "12-18",
+                    "0"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E17",
+        "reward": 1500,
+        "name": "Angry Beaver",
+        "hour": "10h",
+        "cmds": [
+            {
+                "name": "fog",
+                "param": [
+                    "100",
+                    "20",
+                    "30"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Crocodile Helm",
+                    "8-11",
+                    "0.5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Racoon Helm",
+                    "6-10",
+                    "1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "20%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "5"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Piranha",
+                    "4-5",
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly Helm",
+                    "2",
+                    "0"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Boss",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "7"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "8-12",
+                    "0.1"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Fly",
+                    "3",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Boss",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "6"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Beaver Helm",
+                    "2",
+                    "2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "text",
+                "param": [
+                    "I can smell the boss coming ...!"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "H2E18",
+        "reward": 3000,
+        "name": "Mosquito Queen",
+        "hour": "1h",
+        "cmds": [
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "20-16",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "12-16",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "20",
+                    "1.5"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "12-16",
+                    "0.2"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            },
+            {
+                "preGiveName": "Boss",
+                "name": "spawn",
+                "param": [
+                    "Mosquito Boss",
+                    "1",
+                    "0"
+                ]
+            },
+            {
+                "preCondition": "Boss",
+                "name": "spawnk",
+                "param": [
+                    "Mosquito",
+                    "25",
+                    "3"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "0%"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "1.5"
+                ]
+            },
+            {
+                "name": "text",
+                "param": [
+                    "Congratulations!"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "4"
+                ]
+            },
+            {
+                "name": "wait",
+                "param": [
+                    "objects"
+                ]
+            },
+            {
+                "name": "pause",
+                "param": [
+                    "2"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,11 @@
+<res>
+   <item name="font/ruizi.png" type="Image" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="font/dimbo.png" type="Image" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="game/btn_OptionsCountry.png" type="Button" compress="0" pack="0" quality="80" props="stateNum=1" picType="0" scale="0"/>
+   <item name="game/btn_OptionsNotic.png" type="Button" compress="0" pack="0" quality="80" props="stateNum=1" picType="0" scale="0"/>
+   <item name="game/btn_OptionsSound.png" type="Button" compress="0" pack="0" quality="80" props="stateNum=1" picType="0" scale="0"/>
+   <item name="game/btn_Home.png" type="Button" compress="0" pack="0" quality="80" props="stateNum=1" picType="0" scale="0"/>
+   <item name="game/Shop_WeaponIconBg_03.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=43,31,37,53" picType="0" scale="0"/>
+   <item name="game/Shop_WeaponIconBg_02.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=49,17,54,20" picType="0" scale="0"/>
+   <item name="game/img_shop_white.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=10,10,10,10" picType="0" scale="0"/>
+</res>
