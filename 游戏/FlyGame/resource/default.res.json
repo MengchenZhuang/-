@@ -1,0 +1,160 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,bgm_mp3,boom_mp3,bullet_mp3,bg2_jpg,bullet_png,Common_png,enemy_png,explosion1_png,explosion10_png,explosion11_png,explosion12_png,explosion13_png,explosion14_png,explosion15_png,explosion16_png,explosion17_png,explosion18_png,explosion19_png,explosion2_png,explosion3_png,explosion4_png,explosion5_png,explosion6_png,explosion7_png,explosion8_png,explosion9_png,hero_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "bgm_mp3",
+			"type": "sound",
+			"url": "assets/audio/bgm.mp3"
+		},
+		{
+			"name": "boom_mp3",
+			"type": "sound",
+			"url": "assets/audio/boom.mp3"
+		},
+		{
+			"name": "bullet_mp3",
+			"type": "sound",
+			"url": "assets/audio/bullet.mp3"
+		},
+		{
+			"name": "bg2_jpg",
+			"type": "image",
+			"url": "assets/images/bg.jpg"
+		},
+		{
+			"name": "bullet_png",
+			"type": "image",
+			"url": "assets/images/bullet.png"
+		},
+		{
+			"name": "Common_png",
+			"type": "image",
+			"url": "assets/images/Common.png"
+		},
+		{
+			"name": "enemy_png",
+			"type": "image",
+			"url": "assets/images/enemy.png"
+		},
+		{
+			"name": "explosion1_png",
+			"type": "image",
+			"url": "assets/images/explosion1.png"
+		},
+		{
+			"name": "explosion10_png",
+			"type": "image",
+			"url": "assets/images/explosion10.png"
+		},
+		{
+			"name": "explosion11_png",
+			"type": "image",
+			"url": "assets/images/explosion11.png"
+		},
+		{
+			"name": "explosion12_png",
+			"type": "image",
+			"url": "assets/images/explosion12.png"
+		},
+		{
+			"name": "explosion13_png",
+			"type": "image",
+			"url": "assets/images/explosion13.png"
+		},
+		{
+			"name": "explosion14_png",
+			"type": "image",
+			"url": "assets/images/explosion14.png"
+		},
+		{
+			"name": "explosion15_png",
+			"type": "image",
+			"url": "assets/images/explosion15.png"
+		},
+		{
+			"name": "explosion16_png",
+			"type": "image",
+			"url": "assets/images/explosion16.png"
+		},
+		{
+			"name": "explosion17_png",
+			"type": "image",
+			"url": "assets/images/explosion17.png"
+		},
+		{
+			"name": "explosion18_png",
+			"type": "image",
+			"url": "assets/images/explosion18.png"
+		},
+		{
+			"name": "explosion19_png",
+			"type": "image",
+			"url": "assets/images/explosion19.png"
+		},
+		{
+			"name": "explosion2_png",
+			"type": "image",
+			"url": "assets/images/explosion2.png"
+		},
+		{
+			"name": "explosion3_png",
+			"type": "image",
+			"url": "assets/images/explosion3.png"
+		},
+		{
+			"name": "explosion4_png",
+			"type": "image",
+			"url": "assets/images/explosion4.png"
+		},
+		{
+			"name": "explosion5_png",
+			"type": "image",
+			"url": "assets/images/explosion5.png"
+		},
+		{
+			"name": "explosion6_png",
+			"type": "image",
+			"url": "assets/images/explosion6.png"
+		},
+		{
+			"name": "explosion7_png",
+			"type": "image",
+			"url": "assets/images/explosion7.png"
+		},
+		{
+			"name": "explosion8_png",
+			"type": "image",
+			"url": "assets/images/explosion8.png"
+		},
+		{
+			"name": "explosion9_png",
+			"type": "image",
+			"url": "assets/images/explosion9.png"
+		},
+		{
+			"name": "hero_png",
+			"type": "image",
+			"url": "assets/images/hero.png"
+		}
+	]
+}

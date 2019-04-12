@@ -16,7 +16,7 @@ module touch {
 		constructor() {
 			super();
 		}
-
+                        
 		/**
 		 * 销毁
 		 */

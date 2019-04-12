@@ -10,7 +10,7 @@ module touch {
 		 * 层字典
 		 */
         private _layerDic: Laya.Dictionary = null;
-
+		
         /**
          * 构造
          */
