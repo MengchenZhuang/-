@@ -18,6 +18,7 @@ var Main = /** @class */ (function () {
         Laya.stage.screenMode = Laya.Stage.SCREEN_HORIZONTAL;
         Laya.stage.alignV = Laya.Stage.ALIGN_MIDDLE;
         Laya.stage.alignH = Laya.Stage.ALIGN_CENTER;
+        var quadtree = new window["Quadtree"]({ x: 0, y: 0, width: Laya.stage.width, height: Laya.stage.height }, 10, 10);
         UIConfig.closeDialogOnSide = false;
         if (touch.Env.debug) {
             Laya.Stat.show();

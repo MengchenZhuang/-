@@ -20,6 +20,9 @@ class HitArea {
     private _scale:number=1;
     private _bonename:string;
 
+    /**碰撞体*/
+    private _collider:touch.Collider;
+
     constructor(type:string,bonename:string=null){
         this._type = type;
         this._bonename = bonename;
@@ -32,16 +35,19 @@ class HitArea {
             this._sx=this._x = x;
             this._sy=this._y = y;
             this._radius = radius;
+            this._collider = new touch.CircleCollider(x,y,radius);
         }else{
             throw Error("该区域为hitarea_rect，不能设置圆形区域"); 
         }
         
     }
-	/**设置矩形碰撞区域 */
+	/**设置多边形碰撞区域 */
     public setRect(x:number,y:number,w:number,h:number):void
     {
         if(this._type==HitArea.RECT)
         {
+            //TODO:多边形碰撞区域,根据位置边长找到四个点
+            //旋转，平移 缩放 得到四个点
             this._sx=this._x = x;
             this._sy=this._y = y;
             this._rect = new egret.Rectangle(x,y,w,h);
@@ -68,6 +74,13 @@ class HitArea {
             }
         }
         return false;
+    }
+
+
+    /**检测碰撞 */
+    public checkCollide(hitarea){
+        return this._collider.collidesWith(hitarea.collider);
+
     }
 	/**更新碰撞区域位置 */
     public updatePos(x:number,y:number,scale:number):void
@@ -123,5 +136,11 @@ class HitArea {
     public get boneName():string
     {
         return this._bonename;
+    }
+
+
+    /**获取碰撞区域 */
+    public get collider(){
+        return this._collider;
     }
 }

@@ -19,6 +19,7 @@ class Main {
         Laya.stage.screenMode = Laya.Stage.SCREEN_HORIZONTAL;
         Laya.stage.alignV = Laya.Stage.ALIGN_MIDDLE;
         Laya.stage.alignH = Laya.Stage.ALIGN_CENTER;
+        
         UIConfig.closeDialogOnSide = false;
         if (touch.Env.debug) {
             Laya.Stat.show();

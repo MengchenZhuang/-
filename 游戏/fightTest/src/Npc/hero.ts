@@ -6,14 +6,59 @@
 */
 class Hero extends Npc{
 
+    /**血量 */
+    private _hp:number;
+    /**最大血量 不可以外部更改，初始化英雄的时候初始化*/
+    private _maxHp:number;
+
+    private picx:number;
+    private picy:number;
+
     /**英雄状态  1.复活  不受伤害
      *          2.正常  受伤害
      *          3.死亡  是否可以复活
      *  */
     private _state:number;
-    constructor(x,y,speed,radio,color){
-        super(x,y,speed,radio,color);
+    constructor(type,x,y,speed,size,maxHp){
+        super(speed,size);
         this._state = 1;
+        this._hp = 1;
+        this._maxHp = maxHp;
+        this.type = type;
+
+        this.picx = x;
+        this.picy = y;
+
+        this.init();
+        this.initHitArea();
+
+    }
+
+    /**初始化图片将图片添加到地图上 */
+    private init(){
+
+        let pic:LBitMap = new LBitMap();
+        pic.x = this.picx;
+        pic.y = this.picy;
+        pic.bitmap.texture = RES.getRes("hero_1_png");
+        this.picBox.push(pic);
+
+        for(let i = 0;i< this.picBox.length;i++){
+            this.addChild(this.picBox[i]);
+        }
+ 
+
+    }
+
+    /**设置碰撞区域 */
+    private initHitArea(){
+
+        for(let i = 0;i< this.picBox.length;i++){
+            let hitArea:HitArea  = new HitArea(HitArea.CIRCLE,"hero");
+            hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,this.size);
+            this.addHitArea(hitArea)
+        }
+
     }
 
     /**英雄状态  1.复活  2.正常 3.死亡 */
@@ -25,15 +70,109 @@ class Hero extends Npc{
         return this._state;
     }
 
+    public set hp(hp:number){
+        if(hp > this._maxHp){
+            hp = this._maxHp;
+        }
+        this._hp = hp;
+    }
+
+    public get hp():number{
+        return this._hp;
+    }
+
+    /**最大血量  红细胞小弟的数量 */
+    public get maxHp():number{
+        return this._maxHp;
+    }
+
     /**英雄能受到伤害
      * 开始游戏，英雄可以移动 不受伤害
      * 英雄复活不受伤害
      * 
      * 时间消失保护消失英雄会受到伤害
     */
-    public CanHitHero(){
+    public CanHitHero():boolean{
+
+        return false;
+    }
+   /**销毁英雄 */
+    public destoryHero():void
+    {
+        this.destroyObj();
+    }
+
+    /**TODO:检测碰撞 */
+    protected checkingCollision (obj:Npc):void
+    {
+        if(obj instanceof Monster  || obj instanceof Buff)
+        {
+            //TODO:如果英雄不能受到伤害返回
+            if(!this.CanHitHero() && obj instanceof Monster )
+            {
+                return;
+            }
+
+            if(this.checkHit(obj).result == true) 
+            {    
+                obj.setCollisionID(this.objectID);
+                this.collisionIn(obj,this.checkHit(obj).part);
+            }
+            else if(obj.collisionID==this.objectID) {
+                obj.setCollisionID(null);
+                //this.collisionOut(obj);
+            }
+        }
+    }
+
+    /**
+     * 发生碰撞
+     * TODO:子类复写，监听碰撞
+     * */
+    protected collisionIn(obj:Npc,part:string):void
+    {
+
+        //TODO:角色受到攻击
+        if(obj instanceof Monster)
+        {
+            //var monster:Monster = obj as Monster;  
+
+            //TODO:英雄受到攻击      
+            // if(monster.playerid != this.objectID)
+            // {
+                //TODO:怪物碰撞英雄受击
+                //EventManager.instance.event(EventManager.HIT_ANIMATION,[obj.x,obj.y]);
+                //obj.destroy();
+            obj.destroyObj();
+            RoleManager.instance.removeUnit(obj);
+                //EventManager.instance.event(EventManager.DROP_BLOOD,[this,1]);
+                //this.dealByHp();
+           // }  
+
+
+            //角色碰撞到病毒血量减一
+            this.hp -= 1; 
+            //如果血量小于1死亡
+            if(this.hp <1){
+                //TODO:死亡
+            }
+            else{
+                //TODO:在英雄所在位置产生一个skill改变病毒的移动方向
+
+            }      
+        }
+
+        else if(obj instanceof Buff){
+
+            obj.destroyObj();
+            //TODO:添加技能 直接调用技能工厂添加技能
+            //如果技能为红细胞血量加一
+            
+        }
+
 
     }
+
 
 
 }

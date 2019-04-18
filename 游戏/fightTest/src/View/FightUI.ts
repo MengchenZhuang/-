@@ -26,7 +26,6 @@ class FightUI extends egret.Sprite{
         this.initGraphics();
         this.init();
 
-
         this.addEventListener( egret.Event.ENTER_FRAME, ( evt:egret.Event )=>{
             this.movedrawLine(this.data);
         }, this ); 
@@ -45,7 +44,7 @@ class FightUI extends egret.Sprite{
                 speed:10
             }
 
-            let monster:Monster = new Monster(_data.x,_data.y,_data.speed,5,0xffff00);
+            let monster:Monster = new Monster(1,_data.x,_data.y,_data.speed,5);
             this.data.push(monster);
             this.addChild(monster);
         }
@@ -64,47 +63,47 @@ class FightUI extends egret.Sprite{
         let ndot:Monster;
 
         for(let dot of ndots){
-
-            this.moveCircle(dot);
+            // dot.move();
+            this.monsterMove(dot);
             // 循环比对粒子间的距离
-            for (let i = 0; i < ndots.length; i++) {
-                ndot = ndots[i];
-                //dot.speed = 10;
+            // for (let i = 0; i < ndots.length; i++) {
+            //     ndot = ndots[i];
+            //     //dot.speed = 10;
 
-                if (dot === ndot || ndot.x === null || ndot.y === null) continue;
+            //     if (dot === ndot || ndot.x === null || ndot.y === null) continue;
 
-                let xc = dot.x - ndot.x;
-                let yc = dot.y - ndot.y;
-                let lineDis = (dot.radio + ndot.radio)*(dot.radio + ndot.radio);
+            //     let xc = dot.x - ndot.x;
+            //     let yc = dot.y - ndot.y;
+            //     let lineDis = (dot.size + ndot.radio)*(dot.radio + ndot.radio);
 
-                // 如果x轴距离或y轴距离大于max,则不计算粒子距离
-                if(xc*xc > lineDis || yc*yc > lineDis) continue;
+            //     // 如果x轴距离或y轴距离大于max,则不计算粒子距离
+            //     if(xc*xc > lineDis || yc*yc > lineDis) continue;
 
-                // 两个粒子之间的距离
-                let dis = xc * xc + yc * yc;
+            //     // 两个粒子之间的距离
+            //     let dis = xc * xc + yc * yc;
 
-                // 如果粒子距离超过max,则不做处理
+            //     // 如果粒子距离超过max,则不做处理
 
-                //TODO:直接用半径判断融合，效果不好看，之后改成距离小于较大的半径加较小的半径/2,再调试
-                if( dis > lineDis+20 ) continue;
+            //     //TODO:直接用半径判断融合，效果不好看，之后改成距离小于较大的半径加较小的半径/2,再调试
+            //     if( dis > lineDis+20 ) continue;
 
-                ndot.score = dot.score +ndot.score;
+            //     ndot.score = dot.score +ndot.score;
    
                 
-                // if(ndot.score > 5){
-                //     ndot.score = 5;
-                // }
-                this.removeChild(dot);
-                ndots.splice(ndots.indexOf(dot), 1);
-                break;
-            }
+            //     // if(ndot.score > 5){
+            //     //     ndot.score = 5;
+            //     // }
+            //     this.removeChild(dot);
+            //     ndots.splice(ndots.indexOf(dot), 1);
+            //     break;
+            // }
             // 将已经计算过的粒子从数组中删除
             
         }
     }
 
 
-    private moveCircle(dot){
+    private monsterMove(dot:Monster){
         //let self = this;
 
         // 粒子向英雄的位置移动
@@ -113,10 +112,12 @@ class FightUI extends egret.Sprite{
         v.y = dot.y - this.heroUi.hero.y;
 
         v = v.normalize();
+        dot.dir = v;
+        dot.move();
 
    
-        dot.x -= v.x * 0.3 * dot.speed;
-        dot.y -= v.y * 0.3 * dot.speed;
+        // dot.x -= v.x * 0.3 * dot.speed;
+        // dot.y -= v.y * 0.3 * dot.speed;
 
 
 

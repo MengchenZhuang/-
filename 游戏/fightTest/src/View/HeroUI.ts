@@ -13,11 +13,11 @@ class HeroUI extends egret.Sprite{
     constructor(){
         super();
 
-        this.hero = new Hero(this.warea.x,this.warea.y,0,10,0xff0000);
+        this.hero = new Hero("hero",this.warea.x,this.warea.y,0,1,3);
         this.addChild(this.hero);
 
-        this.hero.shape.touchEnabled = true;
-        this.hero.shape.addEventListener(egret.TouchEvent.TOUCH_BEGIN, this.onBeginHandler, this);
+        this.hero.touchEnabled = true;
+        this.hero.addEventListener(egret.TouchEvent.TOUCH_BEGIN, this.onBeginHandler, this);
 
     }
 
@@ -27,10 +27,10 @@ class HeroUI extends egret.Sprite{
         e.stopImmediatePropagation();
         
         //this.drapShape = <egret.Shape>e.currentTarget;
-        this.hero.shape.removeEventListener(egret.TouchEvent.TOUCH_BEGIN, this.onBeginHandler, this);
+        this.hero.removeEventListener(egret.TouchEvent.TOUCH_BEGIN, this.onBeginHandler, this);
         
-        this.hero.shape.touchEnabled = false;
-        console.log("----------this.heroShape.x, this.heroShape.x", this.hero.shape.x, this.hero.shape.x);
+        this.hero.touchEnabled = false;
+        console.log("----------this.hero.x, this.hero.x", this.hero.x, this.hero.x);
         console.log("----------e.stageX, e.stageY", e.stageX, e.stageY);
         
         this.stage.addEventListener(egret.TouchEvent.TOUCH_MOVE, this.onMoveHandler, this);
@@ -39,18 +39,18 @@ class HeroUI extends egret.Sprite{
     
     private onMoveHandler(e:egret.TouchEvent):void {
 
-        this.hero.shape.x = e.stageX;
-        this.hero.shape.y = e.stageY;
+        this.hero.x = e.stageX;
+        this.hero.y = e.stageY;
     }
 
    private onEndHandler(e:egret.TouchEvent):void {
         this.stage.removeEventListener(egret.TouchEvent.TOUCH_MOVE, this.onMoveHandler, this);
         this.stage.removeEventListener(egret.TouchEvent.TOUCH_END, this.onEndHandler, this);
         
-        this.hero.shape.touchEnabled = true;;
+        this.hero.touchEnabled = true;;
         
-        this.hero.shape.addEventListener(egret.TouchEvent.TOUCH_BEGIN, this.onBeginHandler, this);
-        console.log("this.heroShape.x, this.heroShape.x", this.hero.shape.x, this.hero.shape.x);
+        this.hero.addEventListener(egret.TouchEvent.TOUCH_BEGIN, this.onBeginHandler, this);
+        console.log("this.heroShape.x, this.heroShape.x", this.hero.x, this.hero.x);
         console.log("e.stageX, e.stageY", e.stageX, e.stageY);
     }
 

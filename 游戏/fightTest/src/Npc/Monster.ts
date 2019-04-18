@@ -11,21 +11,61 @@
  * 两张病毒列表
  *            1.原始病毒，会与英雄碰撞
  *            2.融合后的病毒  与原始病毒和其他融合后的病毒有碰撞
+ *
  * 
+ * Map  表内的东西碰撞
+ * 
+ * 每个list中的东西自动碰撞  放到另外一层
+ *  
  */
 class Monster extends Npc{
 
     /**不同形态融合 */
     private _canMix:boolean ;
     /**怪物类型 */
-    private _type:number;
+    //private _type:number;
     /**移动方向 */
-    private _vc:touch.Vector;
+    //private _vc:touch.Vector;
+
+    /**内部病毒列表 */
+    private _MonsterList:Array<Monster> = [];
 
     /**TODO:状态,不知道是否需要，英雄需要状态复活，死亡，正常*/
-    constructor(x,y,speed,radio,color){
-        super(x,y,speed,radio,color);
+    constructor(type,x,y,speed,size){
+        super(speed,size);
         this._canMix = true;
+        this.type = type;
+
+        this.init();
+        this.initHitArea();
+
+    }
+
+    /**初始化图片将图片添加到地图上 */
+    private init(){
+
+        let pic:LBitMap = new LBitMap();
+        pic.x = 0;
+        pic.y = 0;
+        pic.bitmap.texture = RES.getRes("monster_"+this.type+"_png");
+        this.picBox.push(pic);
+
+        for(let i = 0;i< this.picBox.length;i++){
+            this.addChild(this.picBox[i]);
+        }
+ 
+
+    }
+
+    /**设置碰撞区域 */
+    private initHitArea(){
+
+        for(let i = 0;i< this.picBox.length;i++){
+            let hitArea:HitArea  = new HitArea(HitArea.CIRCLE,"Monster"+this.type);
+            hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,this.size);
+            this.addHitArea(hitArea)
+        }
+
     }
 
     /**不同形态融合 默认可以融合
@@ -39,6 +79,15 @@ class Monster extends Npc{
         this._canMix = canMix;
     }
 
+    /**内部病毒列表 */
+    public set MonsterList(list:Array<Monster>){
+        this._MonsterList = list;
+    }
+
+    public get MonsterList():Array<Monster>{
+        return this._MonsterList;
+    }
+
     /**病毒类型 
      * 相同病毒融合类型不变，删除一个病毒，留一个大的
      * 不同类型病毒融合，类型依然不变，
@@ -47,13 +96,13 @@ class Monster extends Npc{
      * 病毒移动份两种   碰撞病毒向英雄移动
      *                 非碰撞病毒沿原路线移动
      */
-    public set type(type:number){
-        this._type = type;
-    }
+    // public set type(type:number){
+    //     this._type = type;
+    // }
 
-    public get type():number{
-        return this._type;
-    }
+    // public get type():number{
+    //     return this._type;
+    // }
 
 
     /**
@@ -61,40 +110,110 @@ class Monster extends Npc{
      *         1.一直向着英雄
      *         2.不随英雄移动，碰撞后向相反方向移动
      */
-    public set vc(vc:touch.Vector){
-        this._vc = vc;
-    }
+    // public set vc(vc:touch.Vector){
+    //     this._vc = vc;
+    // }
 
-    public get vc():touch.Vector{
-        return this._vc;
-    }
+    // public get vc():touch.Vector{
+    //     return this._vc;
+    // }
 
     /**
      * 怪物移动
      */
     public move(){
-        this.x -= this.vc.x * this.speed * GData.MonsterSpeedfactor;
-        this.y -= this.vc.y * this.speed * GData.MonsterSpeedfactor;
+        this.x -= this.dir.x * this.speed * GData.MonsterSpeedfactor;
+        this.y -= this.dir.y * this.speed * GData.MonsterSpeedfactor;
     }
 
 
+    /**销毁英雄 */
+    public destoryHero():void
+    {
+        this.destroyObj();
+    }
+
+    /**TODO:检测碰撞 */
+    protected checkingCollision (obj:Npc):void
+    {
+
+        //TODO:碰撞到怪物 分情况
+        if(obj instanceof Monster)
+        {
+            if(this.checkHit(obj).result == true) 
+            {    
+                obj.setCollisionID(this.objectID);
+                this.collisionIn(obj,this.checkHit(obj).part);
+            }
+            else if(obj.collisionID==this.objectID) {
+                obj.setCollisionID(null);
+                //this.collisionOut(obj);
+            }
+        }
+        //TODO:如果是技能
+        else if(obj instanceof Skill){
+            //TODO:如果是碰到就消失的技能。。。。
+            //如果不是不用管
+        }
+
+    }
+
+    /**怪物与怪物碰撞 */
+    //TODO:子类复写，监听碰撞
+    protected collisionIn(obj:Npc,part:string):void
+    {
+        if(obj instanceof Monster)
+        {
+
+            //合到新病毒就不再参与全局碰撞只检测自己内部的碰撞
+
+            //如果类型相同  变大  删除obj 与 this 中较小的那个 大的那个变大
+            //两个向中心移动
+            if(obj.type == this.type){
+                //两个都是融合过的
+                //
+                //两个都是一样的
+                if(obj.score <= this.score){
+                    this.score += obj.score;
+                    console.log(" this.score 类型相同,删除小的")
+                    //TODO:删除小的自己变大
+                }else{
+                    obj.score += this.score;
+                    console.log(" obj.score 类型相同,删除小的")
+                    //TODO:删除自己obj变大
+                }
+
+            }
+            //如果不同类型融合
+            else{
+                //如果两个其中有一个是可以融合的
+                if(obj.canMix || this.canMix){
+                    //TODO:融合
+                    //改变剩下的type
+                    console.log("如果两个其中有一个是可以融合的");
+                }
+                else{
+                    console.log("列表中不能融合");
+                    //TODO:改变方向
+                    //列表中的不能融合的
+                }
+                //在两个病毒中间新产生一个大小是两个相加的大小位置在两个病毒连线中间
+                
+                //所有病毒加到新病毒中 小病毒按原轨迹运动
+                
+            }
+               
+        }
+        else if(obj instanceof Skill){
+            //TODO:如果是碰到就消失的技能。。。。
+            //如果不是不用管
+            console.log("碰到技能")
+            obj.destroyObj();
+            RoleManager.instance.removeUnit(obj);
+        }
+    }
 
 
-
-
-    // public move(){
-
-    //     // 粒子向英雄的位置移动
-    //     let xc = this.x - Hero.x;
-    //     let yc = this.y - Hero.y;
-    //     //if (ndot === warea) {
-    //     this.x -= xc * 0.0001 * this.speed;
-    //     this.y -= yc * 0.0001 * this.speed;
-    //     //}
-    //   //this.drawCircle(dot.x,dot.y,0xffff00,5);
-
-
-    // }
 
 
 
