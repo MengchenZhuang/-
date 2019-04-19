@@ -8,46 +8,26 @@ var __extends = this && this.__extends || function __extends(t, e) {
 for (var i in e) e.hasOwnProperty(i) && (t[i] = e[i]);
 r.prototype = e.prototype, t.prototype = new r();
 };
-var LBitMap = (function (_super) {
-    __extends(LBitMap, _super);
-    function LBitMap() {
+var LBitmap = (function (_super) {
+    __extends(LBitmap, _super);
+    function LBitmap(imgSrc, width, height, x, y) {
+        if (imgSrc === void 0) { imgSrc = ""; }
+        if (width === void 0) { width = 0; }
+        if (height === void 0) { height = 0; }
+        if (x === void 0) { x = 0; }
+        if (y === void 0) { y = 0; }
         var _this = _super.call(this) || this;
-        _this._bitmap = new egret.Bitmap();
-        _this._bitmap.x = 0;
-        _this._bitmap.y = 0;
+        _this.texture = RES.getRes(imgSrc);
+        _this.width = width;
+        _this.height = height;
+        _this.anchorOffsetX = width / 2;
+        _this.anchorOffsetY = height / 2;
+        _this.x = x;
+        _this.y = y;
+        _this.visible = true;
         return _this;
     }
-    Object.defineProperty(LBitMap.prototype, "bitmap", {
-        get: function () {
-            return this._bitmap;
-        },
-        set: function (pic) {
-            this._bitmap = pic;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LBitMap.prototype, "x", {
-        get: function () {
-            return this._bitmap.x;
-        },
-        set: function (x) {
-            this._bitmap.x = x;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LBitMap.prototype, "y", {
-        get: function () {
-            return this._bitmap.y;
-        },
-        set: function (y) {
-            this._bitmap.y = y;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    return LBitMap;
-}(egret.Sprite));
-__reflect(LBitMap.prototype, "LBitMap");
+    return LBitmap;
+}(egret.Bitmap));
+__reflect(LBitmap.prototype, "LBitmap");
 //# sourceMappingURL=LBitMap.js.map

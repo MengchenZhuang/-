@@ -30,24 +30,32 @@ class Monster extends Npc{
     /**内部病毒列表 */
     private _MonsterList:Array<Monster> = [];
 
+    private shape:egret.Shape = new egret.Shape();
+
     /**TODO:状态,不知道是否需要，英雄需要状态复活，死亡，正常*/
     constructor(type,x,y,speed,size){
         super(speed,size);
         this._canMix = true;
         this.type = type;
-
+        this.x = x;
+        this.y = y;
+        this.width = 60;
+        this.height = 60;
         this.init();
         this.initHitArea();
+
 
     }
 
     /**初始化图片将图片添加到地图上 */
     private init(){
 
-        let pic:LBitMap = new LBitMap();
-        pic.x = 0;
-        pic.y = 0;
-        pic.bitmap.texture = RES.getRes("monster_"+this.type+"_png");
+        let pic:LBitmap = new LBitmap("monster_"+this.type+"_png",this.size*60,this.size*60);
+        // pic.x = 0;
+        // pic.y = 0;
+        // pic.width = 60;
+        // pic.height = 60;
+        // pic.bitmap.texture = RES.getRes("monster_"+this.type+"_png");
         this.picBox.push(pic);
 
         for(let i = 0;i< this.picBox.length;i++){
@@ -62,11 +70,31 @@ class Monster extends Npc{
 
         for(let i = 0;i< this.picBox.length;i++){
             let hitArea:HitArea  = new HitArea(HitArea.CIRCLE,"Monster"+this.type);
-            hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,this.size);
+            //hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,30*this.size);
+            let shape = hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,30*this.size);
+            this.addChild(shape);
             this.addHitArea(hitArea)
         }
 
     }
+
+
+    private drawcircle(x:number, y:number,radio:number):void {
+        var shape:egret.Shape = this.shape;
+        shape.graphics.beginFill(0xff0000 + Math.floor(Math.random() * 100) * (0xffffff / 100), 1);
+        shape.graphics.lineStyle(2, 0xff0000 + Math.floor(Math.random() * 100) * (0xffffff / 100));
+        shape.graphics.drawCircle(x, y, radio);
+        shape.graphics.endFill();
+        shape.alpha = 0.5;
+    }
+    
+    //初始化赋值
+    private initCircle(x:number,y:number,radio:number):void {
+        var shape:egret.Shape = this.shape;
+        this.addChild(shape);
+        this.drawcircle(x,y,radio);
+    }
+
 
     /**不同形态融合 默认可以融合
      * 相同融合不改变状态，
@@ -152,6 +180,7 @@ class Monster extends Npc{
         }
         //TODO:如果是技能
         else if(obj instanceof Skill){
+            console.log("怪物碰到技能")
             //TODO:如果是碰到就消失的技能。。。。
             //如果不是不用管
         }

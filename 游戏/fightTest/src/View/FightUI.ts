@@ -9,6 +9,8 @@ class FightUI extends egret.Sprite{
 
     private lineDis:number = 400;
 
+    /**四叉树 */
+    private quadtree:any;
 
     // private shape:egret.Shape = new egret.Shape();
 
@@ -23,6 +25,7 @@ class FightUI extends egret.Sprite{
         this.cW = main.stage.stageWidth;
         this.cH = main.stage.stageHeight;
 
+        this.quadtree = new QuadTree(0,new Rect(0,0,this.cW,this.cH));
         this.initGraphics();
         this.init();
 
@@ -44,13 +47,28 @@ class FightUI extends egret.Sprite{
                 speed:10
             }
 
-            let monster:Monster = new Monster(1,_data.x,_data.y,_data.speed,5);
+            let monster:Monster = new Monster(1,_data.x,_data.y,_data.speed,1);
             this.data.push(monster);
             this.addChild(monster);
         }
         
         console.log("创建敌人完成")
 
+    }
+
+
+    public updata():void
+    {
+        //console.log("this.player",this.player);
+        this.quadtree.Clear();
+
+        RoleManager.instance.objList.forEach(element => {
+            element.needJoinQuadtree(this.quadtree);
+        });
+        RoleManager.instance.objList.forEach(element => {
+             element.checkQuadtree(this.quadtree);
+        });
+        //console.log('FightGame.count'+FightGame.count);
     }
 
      //初始化赋值
@@ -61,7 +79,7 @@ class FightUI extends egret.Sprite{
     private movedrawLine(ndots:Array<Monster>){
 
         let ndot:Monster;
-
+        this.updata();
         for(let dot of ndots){
             // dot.move();
             this.monsterMove(dot);

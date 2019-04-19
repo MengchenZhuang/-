@@ -85,15 +85,15 @@ module touch {
 				Math.max.apply(Math, scalars));
 		}
 
-		// /**
-		//  * 移动
-		//  * @param dx 
-		//  * @param dy 
-		//  */
-		// public move(dx, dy): void {
-		// 	this.x += dx;
-		// 	this.y += dy;
-		// }
+		/**
+		 * 移动
+		 * @param dx 
+		 * @param dy 
+		 */
+		public move(dx, dy): void {
+			this.x += dx;
+			this.y += dy;
+		}
 
 		/**
 		 * 检测点在碰撞体中

@@ -65,20 +65,20 @@ module touch {
 			return axes;
 		}
 
-		// /**
-		//  * 移动
-		//  * @param dx 
-		//  * @param dy 
-		//  */
-		// public move(dx, dy): void {
-		// 	let len = this.points.length;
-		// 	let point: Point = null;
-		// 	for (let i = 0; i < len; i++) {
-		// 		point = this.points[i];
-		// 		point.x += dx;
-		// 		point.y += dy;
-		// 	}
-		// }
+		/**
+		 * 移动
+		 * @param dx 
+		 * @param dy 
+		 */
+		public move(dx, dy): void {
+			let len = this.points.length;
+			let point: Point = null;
+			for (let i = 0; i < len; i++) {
+				point = this.points[i];
+				point.x += dx;
+				point.y += dy;
+			}
+		}
 
 		/**
 		 * 添加顶点

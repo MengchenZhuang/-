@@ -5,7 +5,7 @@ var GData = (function () {
     function GData() {
     }
     /**怪物速度控制 */
-    GData.MonsterSpeedfactor = 0.01;
+    GData.MonsterSpeedfactor = 0.1;
     return GData;
 }());
 __reflect(GData.prototype, "GData");

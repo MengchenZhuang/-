@@ -1,39 +1,19 @@
-class LBitMap extends egret.Sprite{
-    private _bitmap:egret.Bitmap;
 
-    constructor(){
+class LBitmap extends egret.Bitmap{
+
+
+    constructor(imgSrc = "",width = 0, height = 0,x = 0,y = 0){
         super();
-        this._bitmap = new egret.Bitmap();
+        this.texture = RES.getRes(imgSrc);
 
-        this._bitmap.x = 0;
-        this._bitmap.y = 0;
+        this.width  = width;
+        this.height = height;
+        this.anchorOffsetX = width/2;
+        this.anchorOffsetY = height/2;
+
+        this.x = x;
+        this.y = y;
+        this.visible = true;
     }
-
-
-    public set bitmap(pic){
-        this._bitmap = pic;
-    }
-    public get bitmap(){
-        return this._bitmap;
-    }
-
-    public get x(){
-        return this._bitmap.x;
-    }
-    public set x(x){
-        this._bitmap.x = x;
-    }
-
-    public get y(){
-        return this._bitmap.y;
-    }
-    public set y(y){
-        this._bitmap.y = y;
-    }
-
-
-
-
-
 
 }

@@ -22,7 +22,7 @@ class Npc extends egret.Sprite{
     private _type:string;
 
     /**图片盒子 */
-    private _picBoxs:Array<LBitMap>;
+    private _picBoxs:Array<LBitmap>;
 
     /**碰撞区域集合 */
     private _hitareas:Array<HitArea>;
@@ -71,7 +71,7 @@ class Npc extends egret.Sprite{
         this._picBoxs = pics;
 
     }
-    public get picBox():Array<LBitMap>{
+    public get picBox():Array<LBitmap>{
         return this._picBoxs;
     }
 

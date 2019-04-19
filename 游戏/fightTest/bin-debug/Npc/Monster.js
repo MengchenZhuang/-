@@ -39,18 +39,25 @@ var Monster = (function (_super) {
         //private _vc:touch.Vector;
         /**内部病毒列表 */
         _this._MonsterList = [];
+        _this.shape = new egret.Shape();
         _this._canMix = true;
         _this.type = type;
+        _this.x = x;
+        _this.y = y;
+        _this.width = 60;
+        _this.height = 60;
         _this.init();
         _this.initHitArea();
         return _this;
     }
     /**初始化图片将图片添加到地图上 */
     Monster.prototype.init = function () {
-        var pic = new LBitMap();
-        pic.x = 0;
-        pic.y = 0;
-        pic.bitmap.texture = RES.getRes("monster_" + this.type + "_png");
+        var pic = new LBitmap("monster_" + this.type + "_png", this.size * 60, this.size * 60);
+        // pic.x = 0;
+        // pic.y = 0;
+        // pic.width = 60;
+        // pic.height = 60;
+        // pic.bitmap.texture = RES.getRes("monster_"+this.type+"_png");
         this.picBox.push(pic);
         for (var i = 0; i < this.picBox.length; i++) {
             this.addChild(this.picBox[i]);
@@ -60,9 +67,25 @@ var Monster = (function (_super) {
     Monster.prototype.initHitArea = function () {
         for (var i = 0; i < this.picBox.length; i++) {
             var hitArea = new HitArea(HitArea.CIRCLE, "Monster" + this.type);
-            hitArea.setCircle(this.picBox[i].x, this.picBox[i].y, this.size);
+            //hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,30*this.size);
+            var shape = hitArea.setCircle(this.picBox[i].x, this.picBox[i].y, 30 * this.size);
+            this.addChild(shape);
             this.addHitArea(hitArea);
         }
+    };
+    Monster.prototype.drawcircle = function (x, y, radio) {
+        var shape = this.shape;
+        shape.graphics.beginFill(0xff0000 + Math.floor(Math.random() * 100) * (0xffffff / 100), 1);
+        shape.graphics.lineStyle(2, 0xff0000 + Math.floor(Math.random() * 100) * (0xffffff / 100));
+        shape.graphics.drawCircle(x, y, radio);
+        shape.graphics.endFill();
+        shape.alpha = 0.5;
+    };
+    //初始化赋值
+    Monster.prototype.initCircle = function (x, y, radio) {
+        var shape = this.shape;
+        this.addChild(shape);
+        this.drawcircle(x, y, radio);
     };
     Object.defineProperty(Monster.prototype, "canMix", {
         /**不同形态融合 默认可以融合
@@ -138,6 +161,7 @@ var Monster = (function (_super) {
             }
         }
         else if (obj instanceof Skill) {
+            console.log("怪物碰到技能");
             //TODO:如果是碰到就消失的技能。。。。
             //如果不是不用管
         }

@@ -13,6 +13,8 @@ class HeroUI extends egret.Sprite{
     constructor(){
         super();
 
+        this.width = 60;
+        this.height = 60;
         this.hero = new Hero("hero",this.warea.x,this.warea.y,0,1,3);
         this.addChild(this.hero);
 

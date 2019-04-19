@@ -20,16 +20,17 @@ class Buff extends Npc{
 
         this.init();
         this.initHitArea();
+        //this.visible = true;
 
     }
 
     /**初始化图片将图片添加到地图上 */
     private init(){
 
-        let pic:LBitMap = new LBitMap();
-        pic.x = 0;
-        pic.y = 0;
-        pic.bitmap.texture = RES.getRes("buff_"+this.type+"_png");
+        let pic:LBitmap = new LBitmap("buff_"+this.type+"_png",60,60);
+        // pic.x = 0;
+        // pic.y = 0;
+        // pic.bitmap.texture = RES.getRes("buff_"+this.type+"_png");
         this.picBox.push(pic);
 
         for(let i = 0;i< this.picBox.length;i++){

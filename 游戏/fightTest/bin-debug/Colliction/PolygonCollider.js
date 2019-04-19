@@ -63,20 +63,20 @@ var touch;
             axes.push(v1.edge(v2).normal());
             return axes;
         };
-        // /**
-        //  * 移动
-        //  * @param dx 
-        //  * @param dy 
-        //  */
-        // public move(dx, dy): void {
-        // 	let len = this.points.length;
-        // 	let point: Point = null;
-        // 	for (let i = 0; i < len; i++) {
-        // 		point = this.points[i];
-        // 		point.x += dx;
-        // 		point.y += dy;
-        // 	}
-        // }
+        /**
+         * 移动
+         * @param dx
+         * @param dy
+         */
+        PolygonCollider.prototype.move = function (dx, dy) {
+            var len = this.points.length;
+            var point = null;
+            for (var i = 0; i < len; i++) {
+                point = this.points[i];
+                point.x += dx;
+                point.y += dy;
+            }
+        };
         /**
          * 添加顶点
          * @param x

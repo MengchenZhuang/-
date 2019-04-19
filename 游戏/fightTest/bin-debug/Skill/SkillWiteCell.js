@@ -18,13 +18,14 @@ var SkillWiteCell = (function (_super) {
         _this.init();
         _this.initHitArea();
         return _this;
+        //this.visible = true;
     }
     /**初始化图片将图片添加到地图上 */
     SkillWiteCell.prototype.init = function () {
-        var pic = new LBitMap();
-        pic.x = 0;
-        pic.y = 0;
-        pic.bitmap.texture = RES.getRes("skill_" + this.type + "_png");
+        var pic = new LBitmap("skill_" + this.type + "_png", 60, 60);
+        // pic.x = 0;
+        // pic.y = 0;
+        // pic.bitmap.texture = RES.getRes("skill_"+this.type+"_png");
         this.picBox.push(pic);
         for (var i = 0; i < this.picBox.length; i++) {
             this.addChild(this.picBox[i]);
@@ -37,6 +38,9 @@ var SkillWiteCell = (function (_super) {
             hitArea.setCircle(this.picBox[i].x, this.picBox[i].y, this.size);
             this.addHitArea(hitArea);
         }
+    };
+    /**技能移动 */
+    SkillWiteCell.prototype.move = function () {
     };
     return SkillWiteCell;
 }(Skill));

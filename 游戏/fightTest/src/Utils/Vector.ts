@@ -15,6 +15,7 @@ module touch {
 		 */
 		public y: number = 0;
 
+	
 		/**
 		 * 构造函数
 		 * @param point 
@@ -28,9 +29,10 @@ module touch {
 				this.x = args[0].x;
 				this.y = args[0].y;
 			}
+			//传入两个点
 			else if (2 == args.length) {
-				this.x = args[0].x;
-				this.y = args[1].y;
+				this.x = args[1].x - args[0].x;
+				this.y = args[1].y - args[0].y;
 			}
 		}
 

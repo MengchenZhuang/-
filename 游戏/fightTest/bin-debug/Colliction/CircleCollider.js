@@ -88,15 +88,15 @@ var touch;
             scalars.push(dotProduct - this.radius);
             return new touch.Projection(Math.min.apply(Math, scalars), Math.max.apply(Math, scalars));
         };
-        // /**
-        //  * 移动
-        //  * @param dx 
-        //  * @param dy 
-        //  */
-        // public move(dx, dy): void {
-        // 	this.x += dx;
-        // 	this.y += dy;
-        // }
+        /**
+         * 移动
+         * @param dx
+         * @param dy
+         */
+        CircleCollider.prototype.move = function (dx, dy) {
+            this.x += dx;
+            this.y += dy;
+        };
         /**
          * 检测点在碰撞体中
          */

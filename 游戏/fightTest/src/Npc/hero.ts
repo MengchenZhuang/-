@@ -25,24 +25,36 @@ class Hero extends Npc{
         this._hp = 1;
         this._maxHp = maxHp;
         this.type = type;
+        this.x = x;
+        this.y = y;
+        // this.width = 60;
+        // this.height = 60;
 
-        this.picx = x;
-        this.picy = y;
+        // this.picx = x;
+        // this.picy = y;
 
         this.init();
         this.initHitArea();
+        //this.visible = true;
 
     }
 
     /**初始化图片将图片添加到地图上 */
     private init(){
 
-        let pic:LBitMap = new LBitMap();
-        pic.x = this.picx;
-        pic.y = this.picy;
-        pic.bitmap.texture = RES.getRes("hero_1_png");
-        this.picBox.push(pic);
+        let pic:LBitmap = new LBitmap("hero_png",60,60);
+        // pic.bitmap.texture = RES.getRes("hero_png");
+        // //设置中心点
+        // pic.bitmap.anchorOffsetX = pic.bitmap.width/2;
+        // pic.bitmap.anchorOffsetY = pic.bitmap.height/2;
+        // pic.x = this.picx;
+        // pic.y = this.picy;
+        // pic.width = 60;
+        // pic.height = 60;
 
+        this.picBox.push(pic);
+        //TODO:把中心点放在图片的中点 
+        //TODO:在图片中添加一条表示方向的线，起始位置是图片的中心点，结束位置是鼠标方向
         for(let i = 0;i< this.picBox.length;i++){
             this.addChild(this.picBox[i]);
         }
@@ -55,10 +67,19 @@ class Hero extends Npc{
 
         for(let i = 0;i< this.picBox.length;i++){
             let hitArea:HitArea  = new HitArea(HitArea.CIRCLE,"hero");
-            hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,this.size);
+            //hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,this.size);
+
+            let shape = hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,30*this.size);
+            this.addChild(shape);
             this.addHitArea(hitArea)
         }
 
+    }
+
+    /**英雄移动 */
+    public move(){
+        this.x += this.dir.x * this.speed;
+        this.y += this.dir.y * this.speed;
     }
 
     /**英雄状态  1.复活  2.正常 3.死亡 */
@@ -118,7 +139,7 @@ class Hero extends Npc{
                 obj.setCollisionID(this.objectID);
                 this.collisionIn(obj,this.checkHit(obj).part);
             }
-            else if(obj.collisionID==this.objectID) {
+            else if(obj.collisionID == this.objectID) {
                 obj.setCollisionID(null);
                 //this.collisionOut(obj);
             }

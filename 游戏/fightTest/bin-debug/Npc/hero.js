@@ -22,19 +22,31 @@ var Hero = (function (_super) {
         _this._hp = 1;
         _this._maxHp = maxHp;
         _this.type = type;
-        _this.picx = x;
-        _this.picy = y;
+        _this.x = x;
+        _this.y = y;
+        // this.width = 60;
+        // this.height = 60;
+        // this.picx = x;
+        // this.picy = y;
         _this.init();
         _this.initHitArea();
         return _this;
+        //this.visible = true;
     }
     /**初始化图片将图片添加到地图上 */
     Hero.prototype.init = function () {
-        var pic = new LBitMap();
-        pic.x = this.picx;
-        pic.y = this.picy;
-        pic.bitmap.texture = RES.getRes("hero_1_png");
+        var pic = new LBitmap("hero_png", 60, 60);
+        // pic.bitmap.texture = RES.getRes("hero_png");
+        // //设置中心点
+        // pic.bitmap.anchorOffsetX = pic.bitmap.width/2;
+        // pic.bitmap.anchorOffsetY = pic.bitmap.height/2;
+        // pic.x = this.picx;
+        // pic.y = this.picy;
+        // pic.width = 60;
+        // pic.height = 60;
         this.picBox.push(pic);
+        //TODO:把中心点放在图片的中点 
+        //TODO:在图片中添加一条表示方向的线，起始位置是图片的中心点，结束位置是鼠标方向
         for (var i = 0; i < this.picBox.length; i++) {
             this.addChild(this.picBox[i]);
         }
@@ -43,9 +55,16 @@ var Hero = (function (_super) {
     Hero.prototype.initHitArea = function () {
         for (var i = 0; i < this.picBox.length; i++) {
             var hitArea = new HitArea(HitArea.CIRCLE, "hero");
-            hitArea.setCircle(this.picBox[i].x, this.picBox[i].y, this.size);
+            //hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,this.size);
+            var shape = hitArea.setCircle(this.picBox[i].x, this.picBox[i].y, 30 * this.size);
+            this.addChild(shape);
             this.addHitArea(hitArea);
         }
+    };
+    /**英雄移动 */
+    Hero.prototype.move = function () {
+        this.x += this.dir.x * this.speed;
+        this.y += this.dir.y * this.speed;
     };
     Object.defineProperty(Hero.prototype, "state", {
         get: function () {

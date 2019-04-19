@@ -15,6 +15,8 @@ var HeroUI = (function (_super) {
         _this.warea = { x: 200, y: 200 };
         _this.heroShape = new egret.Shape();
         _this.shape = new egret.Shape();
+        _this.width = 60;
+        _this.height = 60;
         _this.hero = new Hero("hero", _this.warea.x, _this.warea.y, 0, 1, 3);
         _this.addChild(_this.hero);
         _this.hero.touchEnabled = true;

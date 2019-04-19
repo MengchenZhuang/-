@@ -6,16 +6,17 @@ class SkillWiteCell extends Skill{
         super(1,2,3);
         this.init();
         this.initHitArea();
+        //this.visible = true;
 
     }
 
     /**初始化图片将图片添加到地图上 */
     private init(){
 
-        let pic:LBitMap = new LBitMap();
-        pic.x = 0;
-        pic.y = 0;
-        pic.bitmap.texture = RES.getRes("skill_"+this.type+"_png");
+        let pic:LBitmap = new LBitmap("skill_"+this.type+"_png",60,60);
+        // pic.x = 0;
+        // pic.y = 0;
+        // pic.bitmap.texture = RES.getRes("skill_"+this.type+"_png");
         this.picBox.push(pic);
 
         for(let i = 0;i< this.picBox.length;i++){
@@ -33,6 +34,12 @@ class SkillWiteCell extends Skill{
             hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,this.size);
             this.addHitArea(hitArea)
         }
+
+    }
+
+
+    /**技能移动 */
+    public move(){
 
     }
 

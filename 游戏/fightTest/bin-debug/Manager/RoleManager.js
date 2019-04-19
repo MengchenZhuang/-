@@ -49,11 +49,14 @@ var RoleManager = (function () {
     };
     /**TODO:删除地图上的对象 */
     RoleManager.prototype.removeUnit = function (obj) {
+        if (obj instanceof Buff) {
+            console.log("删除buff");
+        }
         if (obj instanceof Skill) {
-            //console.log("删除格子");
+            console.log("删除技能");
         }
         if (obj instanceof Monster) {
-            // console.log("移除子弹");
+            console.log("删除怪物");
         }
         var index = this.objList.indexOf(obj);
         if (index > -1) {

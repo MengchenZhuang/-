@@ -42,12 +42,4 @@ class FightGame extends egret.EventDispatcher{
 
     
 
-
-
-
-
-
-
-
-
 }

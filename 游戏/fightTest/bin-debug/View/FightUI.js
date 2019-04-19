@@ -20,6 +20,7 @@ var FightUI = (function (_super) {
         _this.heroUi = new HeroUI();
         _this.cW = main.stage.stageWidth;
         _this.cH = main.stage.stageHeight;
+        _this.quadtree = new QuadTree(0, new Rect(0, 0, _this.cW, _this.cH));
         _this.initGraphics();
         _this.init();
         _this.addEventListener(egret.Event.ENTER_FRAME, function (evt) {
@@ -36,11 +37,23 @@ var FightUI = (function (_super) {
                 cy: Math.random() * 0.6 - 0.3,
                 speed: 10
             };
-            var monster = new Monster(1, _data.x, _data.y, _data.speed, 5);
+            var monster = new Monster(1, _data.x, _data.y, _data.speed, 1);
             this.data.push(monster);
             this.addChild(monster);
         }
         console.log("创建敌人完成");
+    };
+    FightUI.prototype.updata = function () {
+        var _this = this;
+        //console.log("this.player",this.player);
+        this.quadtree.Clear();
+        RoleManager.instance.objList.forEach(function (element) {
+            element.needJoinQuadtree(_this.quadtree);
+        });
+        RoleManager.instance.objList.forEach(function (element) {
+            element.checkQuadtree(_this.quadtree);
+        });
+        //console.log('FightGame.count'+FightGame.count);
     };
     //初始化赋值
     FightUI.prototype.initGraphics = function () {
@@ -48,6 +61,7 @@ var FightUI = (function (_super) {
     };
     FightUI.prototype.movedrawLine = function (ndots) {
         var ndot;
+        this.updata();
         for (var _i = 0, ndots_1 = ndots; _i < ndots_1.length; _i++) {
             var dot = ndots_1[_i];
             // dot.move();

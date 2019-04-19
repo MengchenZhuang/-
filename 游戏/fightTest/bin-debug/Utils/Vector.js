@@ -36,8 +36,8 @@ var touch;
                 this.y = args[0].y;
             }
             else if (2 == args.length) {
-                this.x = args[0].x;
-                this.y = args[1].y;
+                this.x = args[1].x - args[0].x;
+                this.y = args[1].y - args[0].y;
             }
         }
         /**

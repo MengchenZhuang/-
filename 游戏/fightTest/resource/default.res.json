@@ -1,23 +1,55 @@
 {
-	"groups":[
-	{
-		"keys":"bg_jpg,egret_icon_png,description_json",
-		"name":"preload"
-	}],
-	"resources":[
-	{
-		"name":"bg_jpg",
-		"type":"image",
-		"url":"assets/bg.jpg"
-	},
-	{
-		"name":"egret_icon_png",
-		"type":"image",
-		"url":"assets/egret_icon.png"
-	},
-	{
-		"name":"description_json",
-		"type":"json",
-		"url":"config/description.json"
-	}]
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,buff_1_png,hero_png,monster_1_png,monster_2_png,monster_3_png,skill_1_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "buff_1_png",
+			"type": "image",
+			"url": "assets/pic/buff_1.png"
+		},
+		{
+			"name": "hero_png",
+			"type": "image",
+			"url": "assets/pic/hero.png"
+		},
+		{
+			"name": "monster_1_png",
+			"type": "image",
+			"url": "assets/pic/monster_1.png"
+		},
+		{
+			"name": "monster_2_png",
+			"type": "image",
+			"url": "assets/pic/monster_2.png"
+		},
+		{
+			"name": "monster_3_png",
+			"type": "image",
+			"url": "assets/pic/monster_3.png"
+		},
+		{
+			"name": "skill_1_png",
+			"type": "image",
+			"url": "assets/pic/skill_1.png"
+		}
+	]
 }
