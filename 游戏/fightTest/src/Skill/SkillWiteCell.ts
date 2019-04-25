@@ -4,6 +4,8 @@ class SkillWiteCell extends Skill{
     constructor(){
         //TODO:假数据试验
         super(1,2,3);
+
+        this.objectID = "SkillWiteCell" +  egret.getTimer();
         this.init();
         this.initHitArea();
         //this.visible = true;
@@ -31,7 +33,7 @@ class SkillWiteCell extends Skill{
 
         for(let i = 0;i< this.picBox.length;i++){
             let hitArea:HitArea  = new HitArea(HitArea.CIRCLE,"Skill"+this.type);
-            hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,this.size);
+            hitArea.setCircle(this.x,this.y,this.size);
             this.addHitArea(hitArea)
         }
 

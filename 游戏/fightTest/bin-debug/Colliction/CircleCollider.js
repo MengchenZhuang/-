@@ -94,8 +94,8 @@ var touch;
          * @param dy
          */
         CircleCollider.prototype.move = function (dx, dy) {
-            this.x += dx;
-            this.y += dy;
+            this.x = dx;
+            this.y = dy;
         };
         /**
          * 检测点在碰撞体中

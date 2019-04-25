@@ -73,8 +73,8 @@ var touch;
             var point = null;
             for (var i = 0; i < len; i++) {
                 point = this.points[i];
-                point.x += dx;
-                point.y += dy;
+                point.x -= dx;
+                point.y -= dy;
             }
         };
         /**

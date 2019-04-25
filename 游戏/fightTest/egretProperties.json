@@ -1,25 +1,44 @@
 {
-  "engineVersion": "5.2.16",
-  "compilerVersion": "5.2.16",
-  "template": {},
-  "target": {
-    "current": "web"
-  },
-  "modules": [
-    {
-      "name": "egret"
-    },
-    {
-      "name": "game"
-    },
-    {
-      "name": "tween"
-    },
-    {
-      "name": "assetsmanager"
-    },
-    {
-      "name": "promise"
-    }
-  ]
+		"engineVersion": "5.2.16",
+		"compilerVersion": "5.2.16",
+		"template": {},
+		"target": {
+				"current": "web"
+		},
+		"modules": [
+				{
+						"name": "egret"
+				},
+				{
+						"name": "game"
+				},
+				{
+						"name": "tween"
+				},
+				{
+						"name": "assetsmanager"
+				},
+				{
+						"name": "promise"
+				},
+				{
+						"name": "socket"
+				},
+				{
+						"name": "fairygui",
+						"path": "./libs/fairygui"
+				},
+				{
+						"name": "puremvc",
+						"path": "./libs/puremvc"
+				},
+				{
+						"name": "protobuf-library",
+						"path": "protobuf/library"
+				},
+				{
+						"name": "protobuf-bundles",
+						"path": "protobuf/bundles"
+				}
+		]
 }

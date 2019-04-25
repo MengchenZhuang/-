@@ -93,6 +93,7 @@ class Main extends egret.DisplayObjectContainer {
      * Create a game scene
      */
     private createGameScene() {
+        new RoleManager();
         let fightUi =new FightUI(this);
         this.addChild(fightUi);
         // let HeroUi = new HeroUI();

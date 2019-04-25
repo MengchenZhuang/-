@@ -46,6 +46,7 @@ var Monster = (function (_super) {
         _this.y = y;
         _this.width = 60;
         _this.height = 60;
+        _this.objectID = "Monster" + egret.getTimer();
         _this.init();
         _this.initHitArea();
         return _this;
@@ -68,26 +69,26 @@ var Monster = (function (_super) {
         for (var i = 0; i < this.picBox.length; i++) {
             var hitArea = new HitArea(HitArea.CIRCLE, "Monster" + this.type);
             //hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,30*this.size);
-            var shape = hitArea.setCircle(this.picBox[i].x, this.picBox[i].y, 30 * this.size);
+            var shape = hitArea.setCircle(this.x, this.y, 30 * this.size);
             this.addChild(shape);
             this.addHitArea(hitArea);
         }
     };
-    Monster.prototype.drawcircle = function (x, y, radio) {
-        var shape = this.shape;
-        shape.graphics.beginFill(0xff0000 + Math.floor(Math.random() * 100) * (0xffffff / 100), 1);
-        shape.graphics.lineStyle(2, 0xff0000 + Math.floor(Math.random() * 100) * (0xffffff / 100));
-        shape.graphics.drawCircle(x, y, radio);
-        shape.graphics.endFill();
-        shape.alpha = 0.5;
-    };
-    //初始化赋值
-    Monster.prototype.initCircle = function (x, y, radio) {
-        var shape = this.shape;
-        this.addChild(shape);
-        this.drawcircle(x, y, radio);
-    };
     Object.defineProperty(Monster.prototype, "canMix", {
+        // private drawcircle(x:number, y:number,radio:number):void {
+        //     var shape:egret.Shape = this.shape;
+        //     shape.graphics.beginFill(0xff0000 + Math.floor(Math.random() * 100) * (0xffffff / 100), 1);
+        //     shape.graphics.lineStyle(2, 0xff0000 + Math.floor(Math.random() * 100) * (0xffffff / 100));
+        //     shape.graphics.drawCircle(x, y, radio);
+        //     shape.graphics.endFill();
+        //     shape.alpha = 0.5;
+        // }
+        // //初始化赋值
+        // private initCircle(x:number,y:number,radio:number):void {
+        //     var shape:egret.Shape = this.shape;
+        //     this.addChild(shape);
+        //     this.drawcircle(x,y,radio);
+        // }
         /**不同形态融合 默认可以融合
          * 相同融合不改变状态，
          * 不同融合之后改变状态，变为类型不同不可以融合 */
@@ -142,6 +143,9 @@ var Monster = (function (_super) {
     Monster.prototype.move = function () {
         this.x -= this.dir.x * this.speed * GData.MonsterSpeedfactor;
         this.y -= this.dir.y * this.speed * GData.MonsterSpeedfactor;
+        for (var i = 0; i < this.HitAreas.length; i++) {
+            this.HitAreas[i].collider.move(this.x, this.y);
+        }
     };
     /**销毁英雄 */
     Monster.prototype.destoryHero = function () {
@@ -149,22 +153,25 @@ var Monster = (function (_super) {
     };
     /**TODO:检测碰撞 */
     Monster.prototype.checkingCollision = function (obj) {
-        //TODO:碰撞到怪物 分情况
-        if (obj instanceof Monster) {
-            if (this.checkHit(obj).result == true) {
-                obj.setCollisionID(this.objectID);
-                this.collisionIn(obj, this.checkHit(obj).part);
-            }
-            else if (obj.collisionID == this.objectID) {
-                obj.setCollisionID(null);
-                //this.collisionOut(obj);
-            }
-        }
-        else if (obj instanceof Skill) {
-            console.log("怪物碰到技能");
-            //TODO:如果是碰到就消失的技能。。。。
-            //如果不是不用管
-        }
+        // //TODO:碰撞到怪物 分情况
+        // if(obj instanceof Monster)
+        // {
+        //     if(this.checkHit(obj).result == true) 
+        //     {    
+        //         obj.setCollisionID(this.objectID);
+        //         this.collisionIn(obj,this.checkHit(obj).part);
+        //     }
+        //     else if(obj.collisionID==this.objectID) {
+        //         obj.setCollisionID(null);
+        //         //this.collisionOut(obj);
+        //     }
+        // }
+        // //TODO:如果是技能
+        // else if(obj instanceof Skill){
+        //     console.log("怪物碰到技能")
+        //     //TODO:如果是碰到就消失的技能。。。。
+        //     //如果不是不用管
+        // }
     };
     /**怪物与怪物碰撞 */
     //TODO:子类复写，监听碰撞
@@ -179,12 +186,12 @@ var Monster = (function (_super) {
                 //两个都是一样的
                 if (obj.score <= this.score) {
                     this.score += obj.score;
-                    console.log(" this.score 类型相同,删除小的");
+                    // console.log(" 病毒碰撞this.score 类型相同,删除小的")
                     //TODO:删除小的自己变大
                 }
                 else {
                     obj.score += this.score;
-                    console.log(" obj.score 类型相同,删除小的");
+                    // console.log(" 病毒碰撞obj.score 类型相同,删除小的")
                     //TODO:删除自己obj变大
                 }
             }

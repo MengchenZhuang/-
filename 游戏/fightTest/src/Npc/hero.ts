@@ -32,7 +32,7 @@ class Hero extends Npc{
 
         // this.picx = x;
         // this.picy = y;
-
+        this.objectID = "Hero" +  egret.getTimer();
         this.init();
         this.initHitArea();
         //this.visible = true;
@@ -69,7 +69,7 @@ class Hero extends Npc{
             let hitArea:HitArea  = new HitArea(HitArea.CIRCLE,"hero");
             //hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,this.size);
 
-            let shape = hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,30*this.size);
+            let shape = hitArea.setCircle(this.x,this.y,30*this.size);
             this.addChild(shape);
             this.addHitArea(hitArea)
         }
@@ -115,7 +115,7 @@ class Hero extends Npc{
     */
     public CanHitHero():boolean{
 
-        return false;
+        return true;
     }
    /**销毁英雄 */
     public destoryHero():void
@@ -164,6 +164,7 @@ class Hero extends Npc{
                 //TODO:怪物碰撞英雄受击
                 //EventManager.instance.event(EventManager.HIT_ANIMATION,[obj.x,obj.y]);
                 //obj.destroy();
+            console.log("英雄受到怪物碰撞",obj.x,obj.y,this.x,this.y);
             obj.destroyObj();
             RoleManager.instance.removeUnit(obj);
                 //EventManager.instance.event(EventManager.DROP_BLOOD,[this,1]);
@@ -185,6 +186,7 @@ class Hero extends Npc{
 
         else if(obj instanceof Buff){
 
+            console.log("英雄碰到buff")
             obj.destroyObj();
             //TODO:添加技能 直接调用技能工厂添加技能
             //如果技能为红细胞血量加一

@@ -153,6 +153,7 @@ var Main = (function (_super) {
      * Create a game scene
      */
     Main.prototype.createGameScene = function () {
+        new RoleManager();
         var fightUi = new FightUI(this);
         this.addChild(fightUi);
         // let HeroUi = new HeroUI();

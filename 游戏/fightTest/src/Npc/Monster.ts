@@ -41,6 +41,7 @@ class Monster extends Npc{
         this.y = y;
         this.width = 60;
         this.height = 60;
+        this.objectID = "Monster" +  egret.getTimer();
         this.init();
         this.initHitArea();
 
@@ -71,7 +72,7 @@ class Monster extends Npc{
         for(let i = 0;i< this.picBox.length;i++){
             let hitArea:HitArea  = new HitArea(HitArea.CIRCLE,"Monster"+this.type);
             //hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,30*this.size);
-            let shape = hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,30*this.size);
+            let shape = hitArea.setCircle(this.x,this.y,30*this.size);
             this.addChild(shape);
             this.addHitArea(hitArea)
         }
@@ -79,21 +80,21 @@ class Monster extends Npc{
     }
 
 
-    private drawcircle(x:number, y:number,radio:number):void {
-        var shape:egret.Shape = this.shape;
-        shape.graphics.beginFill(0xff0000 + Math.floor(Math.random() * 100) * (0xffffff / 100), 1);
-        shape.graphics.lineStyle(2, 0xff0000 + Math.floor(Math.random() * 100) * (0xffffff / 100));
-        shape.graphics.drawCircle(x, y, radio);
-        shape.graphics.endFill();
-        shape.alpha = 0.5;
-    }
+    // private drawcircle(x:number, y:number,radio:number):void {
+    //     var shape:egret.Shape = this.shape;
+    //     shape.graphics.beginFill(0xff0000 + Math.floor(Math.random() * 100) * (0xffffff / 100), 1);
+    //     shape.graphics.lineStyle(2, 0xff0000 + Math.floor(Math.random() * 100) * (0xffffff / 100));
+    //     shape.graphics.drawCircle(x, y, radio);
+    //     shape.graphics.endFill();
+    //     shape.alpha = 0.5;
+    // }
     
-    //初始化赋值
-    private initCircle(x:number,y:number,radio:number):void {
-        var shape:egret.Shape = this.shape;
-        this.addChild(shape);
-        this.drawcircle(x,y,radio);
-    }
+    // //初始化赋值
+    // private initCircle(x:number,y:number,radio:number):void {
+    //     var shape:egret.Shape = this.shape;
+    //     this.addChild(shape);
+    //     this.drawcircle(x,y,radio);
+    // }
 
 
     /**不同形态融合 默认可以融合
@@ -152,6 +153,10 @@ class Monster extends Npc{
     public move(){
         this.x -= this.dir.x * this.speed * GData.MonsterSpeedfactor;
         this.y -= this.dir.y * this.speed * GData.MonsterSpeedfactor;
+        for(let i = 0; i < this.HitAreas.length; i++){
+            this.HitAreas[i].collider.move(this.x,this.y);
+        }
+
     }
 
 
@@ -165,25 +170,25 @@ class Monster extends Npc{
     protected checkingCollision (obj:Npc):void
     {
 
-        //TODO:碰撞到怪物 分情况
-        if(obj instanceof Monster)
-        {
-            if(this.checkHit(obj).result == true) 
-            {    
-                obj.setCollisionID(this.objectID);
-                this.collisionIn(obj,this.checkHit(obj).part);
-            }
-            else if(obj.collisionID==this.objectID) {
-                obj.setCollisionID(null);
-                //this.collisionOut(obj);
-            }
-        }
-        //TODO:如果是技能
-        else if(obj instanceof Skill){
-            console.log("怪物碰到技能")
-            //TODO:如果是碰到就消失的技能。。。。
-            //如果不是不用管
-        }
+        // //TODO:碰撞到怪物 分情况
+        // if(obj instanceof Monster)
+        // {
+        //     if(this.checkHit(obj).result == true) 
+        //     {    
+        //         obj.setCollisionID(this.objectID);
+        //         this.collisionIn(obj,this.checkHit(obj).part);
+        //     }
+        //     else if(obj.collisionID==this.objectID) {
+        //         obj.setCollisionID(null);
+        //         //this.collisionOut(obj);
+        //     }
+        // }
+        // //TODO:如果是技能
+        // else if(obj instanceof Skill){
+        //     console.log("怪物碰到技能")
+        //     //TODO:如果是碰到就消失的技能。。。。
+        //     //如果不是不用管
+        // }
 
     }
 
@@ -204,11 +209,11 @@ class Monster extends Npc{
                 //两个都是一样的
                 if(obj.score <= this.score){
                     this.score += obj.score;
-                    console.log(" this.score 类型相同,删除小的")
+                    // console.log(" 病毒碰撞this.score 类型相同,删除小的")
                     //TODO:删除小的自己变大
                 }else{
                     obj.score += this.score;
-                    console.log(" obj.score 类型相同,删除小的")
+                    // console.log(" 病毒碰撞obj.score 类型相同,删除小的")
                     //TODO:删除自己obj变大
                 }
 

@@ -192,9 +192,9 @@ class Npc extends egret.Sprite{
 
 
     /**加入四叉树，子类复写可以不加入*/
-    public needJoinQuadtree(quadtree:any):void
+    public needJoinQuadtree(quadtree:QuadTree):void
     {
-        quadtree.insert(this.getCustomBound());
+        quadtree.Insert(this.getCustomBound());
     }
 
     /**点碰撞检测*/
@@ -221,7 +221,7 @@ class Npc extends egret.Sprite{
     public checkHit(obj:Npc):any{
         if(this._hitareas){
             for(let i = 0; i<this._hitareas.length; i++){
-                for(let j = 0; j<obj._hitareas.length; i++){
+                for(let j = 0; j<obj._hitareas.length; j++){
                     if(this._hitareas[i].checkCollide(obj._hitareas[j]) == true){
                         return {result:true,part:this._hitareas[i].boneName};
                     }
@@ -237,6 +237,11 @@ class Npc extends egret.Sprite{
     {
         if(!this._hitareas)this._hitareas=[];
         this._hitareas.push(area);
+    }
+
+    /**获取碰撞区域 */
+    public get HitAreas(){
+        return this._hitareas;
     }
 
     /**检测碰撞 */
@@ -257,9 +262,9 @@ class Npc extends egret.Sprite{
     }
 
     /**四叉树检测*/
-    public checkQuadtree(quadtree:any):void
+    public checkQuadtree(quadtree:QuadTree):void
     {
-        var list = quadtree.retrieve(this.getCustomBound());
+        var list = quadtree.Retrieve(this.getCustomBound());
         var item:any;
         for(var i=list.length-1;i>=0;--i)
         {

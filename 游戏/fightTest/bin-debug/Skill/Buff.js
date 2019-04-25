@@ -25,6 +25,7 @@ var Buff = (function (_super) {
         //TODO:暂时写这个
         _super.call(this, 1, 1) || this;
         _this.type = type;
+        _this.objectID = "Buff" + egret.getTimer();
         _this.init();
         _this.initHitArea();
         return _this;
@@ -45,7 +46,7 @@ var Buff = (function (_super) {
     Buff.prototype.initHitArea = function () {
         for (var i = 0; i < this.picBox.length; i++) {
             var hitArea = new HitArea(HitArea.CIRCLE, "Buff" + this.type);
-            hitArea.setCircle(this.picBox[i].x, this.picBox[i].y, this.size);
+            hitArea.setCircle(this.x, this.y, this.size);
             this.addHitArea(hitArea);
         }
     };

@@ -117,13 +117,21 @@ var QuadTree = (function () {
     /**
      *返回所有可能和指定物体碰撞的物体
      */
-    QuadTree.prototype.Retrieve = function (fSpriteList, pRect) {
-        var index = this.GetIndex(pRect);
-        if (index != -1 && this.nodes[0] != null) {
-            this.nodes[index].Retrieve(fSpriteList, pRect);
+    QuadTree.prototype.Retrieve = function (pRect) {
+        var result = [];
+        var arr;
+        var index;
+        if (this.nodes.length) {
+            index = this.GetIndex(pRect);
+            if (index != -1) {
+                result = result.concat(this.nodes[index].Retrieve(pRect));
+                // this.nodes[index].Retrieve(pRect,fSpriteList);
+            }
         }
-        fSpriteList.push(this.objects);
-        return fSpriteList;
+        for (var i = 0, len = this.objects.length; i < len; i++) {
+            result.push(this.objects[i]);
+        }
+        return result;
     };
     return QuadTree;
 }());

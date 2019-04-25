@@ -75,8 +75,8 @@ module touch {
 			let point: Point = null;
 			for (let i = 0; i < len; i++) {
 				point = this.points[i];
-				point.x += dx;
-				point.y += dy;
+				point.x -= dx;
+				point.y -= dy;
 			}
 		}
 

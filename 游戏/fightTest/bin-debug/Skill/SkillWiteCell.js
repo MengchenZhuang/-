@@ -15,6 +15,7 @@ var SkillWiteCell = (function (_super) {
         var _this = 
         //TODO:假数据试验
         _super.call(this, 1, 2, 3) || this;
+        _this.objectID = "SkillWiteCell" + egret.getTimer();
         _this.init();
         _this.initHitArea();
         return _this;
@@ -35,7 +36,7 @@ var SkillWiteCell = (function (_super) {
     SkillWiteCell.prototype.initHitArea = function () {
         for (var i = 0; i < this.picBox.length; i++) {
             var hitArea = new HitArea(HitArea.CIRCLE, "Skill" + this.type);
-            hitArea.setCircle(this.picBox[i].x, this.picBox[i].y, this.size);
+            hitArea.setCircle(this.x, this.y, this.size);
             this.addHitArea(hitArea);
         }
     };

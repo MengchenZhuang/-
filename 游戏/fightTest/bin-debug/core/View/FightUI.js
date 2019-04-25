@@ -40,6 +40,7 @@ var FightUI = (function (_super) {
             var monster = new Monster(1, _data.x, _data.y, _data.speed, 1);
             this.data.push(monster);
             this.addChild(monster);
+            RoleManager.instance.addNPC(monster, _data.x, _data.y);
         }
         console.log("创建敌人完成");
     };

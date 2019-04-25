@@ -19,9 +19,9 @@ class QuadTree {
 	/**
 	 * 节点能持有的最大对象数量，如果超过则进行分裂
 	 */
-	private MAX_OBJECTS:number = 1;
+	private MAX_OBJECTS:number = 10;
 	/**子节点的最大深度 */
-	private MAX_LEVELS:number = 3;
+	private MAX_LEVELS:number = 4;
 
 	/**当前节点深度 0表示最上层节点*/
 	private level:number;
@@ -33,8 +33,8 @@ class QuadTree {
 	/**四个节点的集合 */
 	private nodes:Array<QuadTree>;
 	public constructor(pLevel:number,pBounds:Rect) {
-		this.level = pLevel;
-		this.objects = new Array<any>();
+		this.level = pLevel || 0;
+		this.objects = [];
 		this.bounds = pBounds;
 		this.nodes = [];
 
@@ -45,17 +45,20 @@ class QuadTree {
 		this.objects = [];
 
 		for(let i = 0; i < this.nodes.length; i++){
-			if(this.nodes[i] != null){
+			if(typeof this.nodes[i] !== "undefined"){
 
 				this.nodes[i].Clear();
-				this.nodes[i] = null;
+				//this.nodes[i] = null;
 			}
 		}
+		this.nodes = [];
 
 	}
 
 	/**将当前节点分裂为四个节点(实际上是添加四个子节点) */
 	private Split(){
+
+		let nextLevet = this.level + 1;
 		let subWidth:number =(this.bounds.width / 2) | 0;
 		let subHeight:number =(this.bounds.height/2) | 0;
 		let x:number = (this.bounds.x);
@@ -113,13 +116,14 @@ class QuadTree {
 	 */
 	public Insert(pRect){
 
+		let index:number;
 		//插入到子节点
-		if(this.nodes[0] != null){
-			let index:number = this.GetIndex(pRect);
-				if(index != -1){
-					this.nodes[index].Insert(pRect);
-					return;
-				}
+		if(typeof this.nodes[0] !== "undefined"){
+			 index = this.GetIndex(pRect);
+			if(index !== -1){
+				this.nodes[index].Insert(pRect);
+				return;
+			}
 		}
 
 		//还没分裂或者插入到子节点失败，只好留个父节点
@@ -127,7 +131,7 @@ class QuadTree {
 
 		//超容量后如果没有分裂则分裂
 		if(this.objects.length >this.MAX_OBJECTS && this.level <this.MAX_LEVELS){
-			if(this.nodes[0]== null){
+			if(typeof this.nodes[0] === "undefined"){
 				this.Split();
 			}
 
@@ -135,31 +139,38 @@ class QuadTree {
 			let i:number = 0;
 			while(i< this.objects.length){
 
-				let index:number = this.GetIndex(this.objects[i]);
-					if(index != -1){
-						this.nodes[index].Insert(this.objects.splice(i,1));
-						//this.objects.Remove(squareOne);
-					}
-					else{
-						i++;
-					}
+				index= this.GetIndex(this.objects[i]);
+				if(index != -1){
+					this.nodes[index].Insert(this.objects.splice(i,1));
+					//this.objects.Remove(squareOne);
+				}
+				else{
+					i++;
 				}
 			}
+		}
 	}
 
 
 	/**
 	 *返回所有可能和指定物体碰撞的物体
 	 */
-	private Retrieve(fSpriteList:Array<any>,pRect:Rect):Array<any>{
-		let index:number = this.GetIndex(pRect);
-		if(index != -1 && this.nodes[0] != null)
-		{
-			this.nodes[index].Retrieve(fSpriteList, pRect);
-		}    
-			
-		fSpriteList.push(this.objects);
-		return fSpriteList;
+	public Retrieve(pRect:Rect){
+
+		let index = this.GetIndex(pRect);
+		let returnObjects = this.objects;
+		if(typeof this.nodes[0] !== 'undefined'){
+			if(index !== -1){
+				returnObjects = returnObjects.concat(this.nodes[index].Retrieve(pRect));
+
+			}else{
+				for(var i = 0;i<this.nodes.length;i++){
+					returnObjects = returnObjects.concat(this.nodes[i].Retrieve(pRect));
+				}
+			}
+		}
+
+		return returnObjects;		
 	}
 
 	

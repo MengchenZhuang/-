@@ -19,6 +19,7 @@ var HeroUI = (function (_super) {
         _this.height = 60;
         _this.hero = new Hero("hero", _this.warea.x, _this.warea.y, 0, 1, 3);
         _this.addChild(_this.hero);
+        RoleManager.instance.addNPC(_this.hero, _this.hero.x, _this.hero.y);
         _this.hero.touchEnabled = true;
         _this.hero.addEventListener(egret.TouchEvent.TOUCH_BEGIN, _this.onBeginHandler, _this);
         return _this;
@@ -29,8 +30,8 @@ var HeroUI = (function (_super) {
         //this.drapShape = <egret.Shape>e.currentTarget;
         this.hero.removeEventListener(egret.TouchEvent.TOUCH_BEGIN, this.onBeginHandler, this);
         this.hero.touchEnabled = false;
-        console.log("----------this.hero.x, this.hero.x", this.hero.x, this.hero.x);
-        console.log("----------e.stageX, e.stageY", e.stageX, e.stageY);
+        //console.log("----------this.hero.x, this.hero.x", this.hero.x, this.hero.x);
+        //console.log("----------e.stageX, e.stageY", e.stageX, e.stageY);
         this.stage.addEventListener(egret.TouchEvent.TOUCH_MOVE, this.onMoveHandler, this);
         this.stage.addEventListener(egret.TouchEvent.TOUCH_END, this.onEndHandler, this);
     };
@@ -44,8 +45,8 @@ var HeroUI = (function (_super) {
         this.hero.touchEnabled = true;
         ;
         this.hero.addEventListener(egret.TouchEvent.TOUCH_BEGIN, this.onBeginHandler, this);
-        console.log("this.heroShape.x, this.heroShape.x", this.hero.x, this.hero.x);
-        console.log("e.stageX, e.stageY", e.stageX, e.stageY);
+        //console.log("this.heroShape.x, this.heroShape.x", this.hero.x, this.hero.x);
+        //console.log("e.stageX, e.stageY", e.stageX, e.stageY);
     };
     return HeroUI;
 }(egret.Sprite));

@@ -91,8 +91,8 @@ module touch {
 		 * @param dy 
 		 */
 		public move(dx, dy): void {
-			this.x += dx;
-			this.y += dy;
+			this.x = dx;
+			this.y = dy;
 		}
 
 		/**

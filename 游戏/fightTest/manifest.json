@@ -5,25 +5,32 @@
 		"libs/modules/game/game.js",
 		"libs/modules/tween/tween.js",
 		"libs/modules/assetsmanager/assetsmanager.js",
-		"libs/modules/promise/promise.js"
+		"libs/modules/promise/promise.js",
+		"libs/modules/socket/socket.js",
+		"libs/fairygui/fairygui.js",
+		"protobuf/library/protobuf-library.js",
+		"protobuf/bundles/protobuf-bundles.js"
 	],
 	"game": [
 		"bin-debug/Npc/Npc.js",
 		"bin-debug/Colliction/Collider.js",
 		"bin-debug/Skill/Skill.js",
-		"bin-debug/Npc/hero.js",
+		"bin-debug/Data/MonsterType.js",
 		"bin-debug/FightGame.js",
 		"bin-debug/Colliction/CollisionUtil.js",
 		"bin-debug/Colliction/HitArea.js",
 		"bin-debug/Colliction/Point.js",
 		"bin-debug/Colliction/PolygonCollider.js",
 		"bin-debug/Colliction/Projection.js",
+		"bin-debug/core/View/FightUI.js",
+		"bin-debug/core/View/HeroUI.js",
+		"bin-debug/core/View/LoadingUI.js",
 		"bin-debug/Data/GData.js",
 		"bin-debug/Data/HeroState.js",
-		"bin-debug/Data/MonsterType.js",
+		"bin-debug/Main.js",
 		"bin-debug/Data/SkillType.js",
 		"bin-debug/Manager/RoleManager.js",
-		"bin-debug/Main.js",
+		"bin-debug/Npc/hero.js",
 		"bin-debug/Npc/Monster.js",
 		"bin-debug/Npc/MonsterSmall.js",
 		"bin-debug/Platform.js",
@@ -34,9 +41,6 @@
 		"bin-debug/Skill/SkillWiteCell.js",
 		"bin-debug/Utils/LBitMap.js",
 		"bin-debug/Utils/Matrix3.js",
-		"bin-debug/Utils/Vector.js",
-		"bin-debug/View/FightUI.js",
-		"bin-debug/View/HeroUI.js",
-		"bin-debug/View/LoadingUI.js"
+		"bin-debug/Utils/Vector.js"
 	]
 }

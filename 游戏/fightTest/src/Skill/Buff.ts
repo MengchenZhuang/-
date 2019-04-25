@@ -18,6 +18,7 @@ class Buff extends Npc{
 
         this.type = type;
 
+        this.objectID = "Buff" +  egret.getTimer();
         this.init();
         this.initHitArea();
         //this.visible = true;
@@ -45,7 +46,7 @@ class Buff extends Npc{
 
         for(let i = 0;i< this.picBox.length;i++){
             let hitArea:HitArea  = new HitArea(HitArea.CIRCLE,"Buff"+this.type);
-            hitArea.setCircle(this.picBox[i].x,this.picBox[i].y,this.size);
+            hitArea.setCircle(this.x,this.y,this.size);
             this.addHitArea(hitArea)
         }
 

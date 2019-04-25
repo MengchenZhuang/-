@@ -161,7 +161,7 @@ var Npc = (function (_super) {
     };
     /**加入四叉树，子类复写可以不加入*/
     Npc.prototype.needJoinQuadtree = function (quadtree) {
-        quadtree.insert(this.getCustomBound());
+        quadtree.Insert(this.getCustomBound());
     };
     /**点碰撞检测*/
     Npc.prototype.checkPointHit = function (stageX, stageY) {
@@ -181,7 +181,7 @@ var Npc = (function (_super) {
     Npc.prototype.checkHit = function (obj) {
         if (this._hitareas) {
             for (var i = 0; i < this._hitareas.length; i++) {
-                for (var j = 0; j < obj._hitareas.length; i++) {
+                for (var j = 0; j < obj._hitareas.length; j++) {
                     if (this._hitareas[i].checkCollide(obj._hitareas[j]) == true) {
                         return { result: true, part: this._hitareas[i].boneName };
                     }
@@ -197,6 +197,14 @@ var Npc = (function (_super) {
             this._hitareas = [];
         this._hitareas.push(area);
     };
+    Object.defineProperty(Npc.prototype, "HitAreas", {
+        /**获取碰撞区域 */
+        get: function () {
+            return this._hitareas;
+        },
+        enumerable: true,
+        configurable: true
+    });
     /**检测碰撞 */
     Npc.prototype.checkingCollision = function (obj) {
         // if(obj instanceof Bullet)
@@ -214,7 +222,7 @@ var Npc = (function (_super) {
     };
     /**四叉树检测*/
     Npc.prototype.checkQuadtree = function (quadtree) {
-        var list = quadtree.retrieve(this.getCustomBound());
+        var list = quadtree.Retrieve(this.getCustomBound());
         var item;
         for (var i = list.length - 1; i >= 0; --i) {
             item = list[i];

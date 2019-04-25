@@ -35,7 +35,7 @@ var HitArea = (function () {
             this._sy = this._y = y;
             this._radius = radius;
             this._collider = new touch.CircleCollider(x, y, radius);
-            return this.initCircle(x, y, radius);
+            return this.initCircle(0, 0, radius);
         }
         else {
             throw Error("该区域为hitarea_rect，不能设置圆形区域");
@@ -97,19 +97,19 @@ var HitArea = (function () {
     HitArea.prototype.checkCollide = function (hitarea) {
         return this._collider.collidesWith(hitarea.collider);
     };
+    /**更新碰撞区域位置 */
+    HitArea.prototype.updatePos = function (x, y, scale) {
+        this._x = x;
+        this._y = y;
+        if (this._rect) {
+            for (var i = 0; i < this._rect.points.length; i++) {
+                this._rect.points[i].x = x;
+                this._rect.points[i].y = y;
+            }
+        }
+        this._scale = Math.abs(scale);
+    };
     Object.defineProperty(HitArea.prototype, "areaType", {
-        // /**更新碰撞区域位置 */
-        // public updatePos(x:number,y:number,scale:number):void
-        // {
-        //     this._x = x;
-        //     this._y = y;
-        //     if(this._rect)
-        //     {
-        //         this._rect.x=x;
-        //         this._rect.y=y;
-        //     }
-        //     this._scale = Math.abs(scale);
-        // }
         /**碰撞区域类型 */
         get: function () {
             return this._type;
