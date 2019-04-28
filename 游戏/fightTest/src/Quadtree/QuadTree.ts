@@ -76,16 +76,13 @@ class QuadTree {
 	 * -1指的是当前节点可能在子节点之间的边界上不属于四个节点而还是属于父节点
 	 */
 	private GetIndex(pRect:Rect):number{
-
 		let index = -1;
 		//中线
 		let verticalMidpoint = this.bounds.x + this.bounds.width/2;
 		let horizontalMidpoint = this.bounds.y + this.bounds.height/2;
-
 		//物体完全位于上面两个节点所在区域
 		let topQuadrant:boolean = (pRect.y < horizontalMidpoint && pRect.y+pRect.height < horizontalMidpoint);
 		let bottomQuadrant:boolean = pRect.y > horizontalMidpoint;
-
 		//物体完全位于左面两个节点所在区域
 		if(pRect.x < verticalMidpoint && pRect.x + pRect.width <  verticalMidpoint ){
 			if(topQuadrant){
@@ -106,7 +103,6 @@ class QuadTree {
             {
                 index = 3;//处于右下
             }
-
         }
         return index;
 	}

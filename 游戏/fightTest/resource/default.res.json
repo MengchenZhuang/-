@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "bg_jpg,egret_icon_png,description_json,buff_1_png,hero_png,monster_1_png,monster_2_png,monster_3_png,skill_1_png",
+			"keys": "bg_jpg,egret_icon_png,description_json,buff_1_png,hero_png,monster_1_png,monster_2_png,monster_3_png,skill_1_png,loadingCircle_png",
 			"name": "preload"
 		}
 	],
@@ -50,6 +50,11 @@
 			"name": "skill_1_png",
 			"type": "image",
 			"url": "assets/pic/skill_1.png"
+		},
+		{
+			"name": "loadingCircle_png",
+			"type": "image",
+			"url": "assets/loadingCircle.png"
 		}
 	]
 }

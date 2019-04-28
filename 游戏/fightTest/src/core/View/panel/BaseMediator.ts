@@ -9,7 +9,7 @@ class BaseMediator extends puremvc.Mediator implements puremvc.IMediator{
 
     private isInitialized:Boolean = false;//是否初始化
     private isPopUp:Boolean = false;//是否已经显示
-    private ui: eui.Component = null;//UI容器
+    private ui: fairygui.GComponent = null;//UI容器
     public w: number = 0;
     public h: number = 0;    
     
@@ -27,7 +27,7 @@ class BaseMediator extends puremvc.Mediator implements puremvc.IMediator{
     * popUpHeight      	指定弹窗高度，定位使用
     * effectType        0：没有动画 1:从中间轻微弹出 2：从中间猛烈弹出  3：从左向右 4：从右向左 5、从上到下 6、从下到上
     */
-    public showUI(ui: eui.Component,dark: boolean = false,popUpWidth: number = 0,popUpHeight: number = 0,effectType: number = 0,isAlert: boolean = false): void {
+    public showUI(ui: fairygui.GComponent,dark: boolean = false,popUpWidth: number = 0,popUpHeight: number = 0,effectType: number = 0,isAlert: boolean = false): void {
         this.ui = ui;
         this.beforShow();
         this.initUI();

@@ -90,7 +90,7 @@ class Hero extends Npc{
     public get state():number{
         return this._state;
     }
-
+   
     public set hp(hp:number){
         if(hp > this._maxHp){
             hp = this._maxHp;
